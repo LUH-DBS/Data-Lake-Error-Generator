@@ -39,7 +39,7 @@ def set_outliers_config(xml_root, table_name, outlier_error_cols, outlier_errors
 
     outlier_error_obj_attr= xml_root.find("//outlierErrors/tables/table/attributes")
     for col in outlier_error_cols:
-        out_atrr = etree.SubElement(outlier_error_obj_attr, "atrribute")
+        out_atrr = etree.SubElement(outlier_error_obj_attr, "attribute")
         out_atrr.set("percentage", str(math.floor(int(outlier_errors_percentage)/len(outlier_error_cols))))
         out_atrr.set("detectable", "true")
         out_atrr.text = col
@@ -54,7 +54,7 @@ def set_typos_config(xml_root, table_name, typo_percentage, typo_cols):
 
     typo_error_obj_attr= xml_root.find("//randomErrors/tables/table/attributes")
     for col in typo_cols:
-        typo_atrr = etree.SubElement(typo_error_obj_attr, "atrribute")
+        typo_atrr = etree.SubElement(typo_error_obj_attr, "attribute")
         typo_atrr.text = col
     return xml_root
 
