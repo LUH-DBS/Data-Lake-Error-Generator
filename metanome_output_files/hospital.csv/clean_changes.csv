@@ -1,690 +1,1530 @@
-601.address_one,t987 drayton street,987 drayton street
-81.measure_name,pneuwmonia patients assessed and given pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
-198.county_name,jefferoson,jefferson
-297.hospital_owner,voluntary non-profit  private,voluntary non-profit - private
-299.hospital_type,aucte care hospitals,acute care hospitals
-2.index,5.0,2
-98.state,la,al
-6.city,brmingham,birmingham
-6.index,13.0,6
-575.address_three,mpty,empty
-988.city,noeonta,oneonta
-124.state,apl,al
-923.hospital_name,riverviewy regional medical center,riverview regional medical center
-482.measure_name,pneumonia patientsg iven the most appropriate initial antibiotic(s),pneumonia patients given the most appropriate initial antibiotic(s)
-980.address_three,epty,empty
-67.address_two,emmpty,empty
-324.score,10s0%,100%
-951.sample,elmpty,empty
-942.provider_number,12589,10047
-888.state,l,al
-325.address_one,301 east 18t st,301 east 18th st
-437.county_name,anchoraeg,anchorage
-188.address_one,8000 alabama highway69,8000 alabama highway 69
-4.measure_code,scipj-inf-3,scip-inf-3
-733.address_one,1912k alabama highway 157,1912 alabama highway 157
-349.phone_number,6353733115,2059397000
-89.hospital_owner,volunary non-profit - other,voluntary non-profit - other
-220.hospital_name,dekalbl regional medical center,dekalb regional medical center
-61.hospital_name,marshall medial center south,marshall medical center south
-149.county_name,moragn,morgan
-863.sample,10 ptients,10 patients
-15.index,5.0,15
-320.score,8%7,87%
-425.city,sylacauag,sylacauga
-891.stateavg,ald_pn-4,al_pn-4
-992.state,all,al
-303.score,empyt,empty
-66.city,oaz,boaz
-561.score,9%8,98%
-227.score,b89%,89%
-44.phone_number,3347938724,3347938701
-408.city,prattivlle,prattville
-736.measure_name,surgery patients who were given the  right kind  of ntibiotic to help prevent infection,surgery patients who were given the  right kind  of antibiotic to help prevent infection
-567.county_name,chambcers,chambers
-976.condition,surgical infectionw prevention,surgical infection prevention
-285.score,9%3,93%
-840.hospital_owner,voluntary non-profit - prvate,voluntary non-profit - private
-910.address_one,600 south third strete,600 south third street
-732.hospital_name,cullman regional medical centerr,cullman regional medical center
-317.county_name,caldhoun,calhoun
-693.address_two,eumpty,empty
-61.address_three,mpty,empty
-387.measure_name,heart failure patietns given discharge instructions,heart failure patients given discharge instructions
-816.county_name,etowha,etowah
-255.address_two,empyt,empty
-974.address_three,empy,empty
-10.index,9.0,10
-423.address_two,mepty,empty
-5.stateavg,al_ami-4,al_scip-inf-4
-443.state,ka,ak
-653.stateavg,al_upn-2,al_pn-2
-400.address_one,124 s memroial dr,124 s memorial dr
-701.measure_code,hf3,hf-3
-455.measure_name,pneumonia patients given smoking cessatino advice/counseling,pneumonia patients given smoking cessation advice/counseling
-330.measure_name,pneumonia patients ssessed and given influenza vaccination,pneumonia patients assessed and given influenza vaccination
-909.state,la,al
-269.measure_code,sip-vte-2,scip-vte-2
-245.hospital_owner,government -f ederal,government - federal
-596.stateavg,alr_ami-5,al_ami-5
-223.state,l,al
-658.sample,61 patients,16 patients
-362.hospital_type,acte care hospitals,acute care hospitals
-522.condition,heart fattack,heart attack
-295.city,birmingheam,birmingham
-595.stateavg,al_ami4,al_ami-4
-938.stateavg,la_hf-1,al_hf-1
-449.county_name,nchorage,anchorage
-708.emergency_service,on,no
-449.city,anchocrage,anchorage
-350.address_one,810 st ivncents drive,810 st vincents drive
-188.hospital_owner,government - hospital district or authoity,government - hospital district or authority
-971.county_name,coffeue,coffee
-628.hospital_name,east alabama medical center andsnf,east alabama medical center and snf
-144.hospital_owner,government - ederal,government - federal
-720.condition,hreart attack,heart attack
-830.emergency_service,yse,yes
-153.address_three,emphty,empty
-797.hospital_name,huntsville hospital***,huntsville hospital
-724.address_three,empy,empty
-647.state,l,al
-725.hospital_type,cute care hospitals,acute care hospitals
-826.emergency_service,es,yes
-397.stateavg,ala_mi-7a,al_ami-7a
-186.emergency_service,yse,yes
-315.measure_code,ami-b2,ami-2
-273.county_name,shelbqy,shelby
-292.city,aabaster,alabaster
-8.index,7.0,8
-598.sample,mpty,empty
-375.city,winfied,winfield
-888.stateavg,al_hfq-4,al_hf-4
-32.score,89i%,89%
-181.address_two,emppty,empty
-533.county_name,ontgomery,montgomery
-615.sample,kempty,empty
-937.score,mpty,empty
-713.state,l,al
-219.address_two,epty,empty
-176.stateavg,al_ami-a8,al_ami-8a
-614.stateavg,al_scip-inf6-,al_scip-inf-6
-214.sample,473 paitents,473 patients
-956.condition,heatr attack,heart attack
-767.score,1b00%,100%
-207.measure_code,pn-g3b,pn-3b
-961.emergency_service,yyes,yes
-476.address_two,emtpy,empty
-785.sample,264 pateints,264 patients
-11.index,24.0,11
-260.hospital_owner,governmendt - federal,government - federal
-168.county_name,omrgan,morgan
-51.hospital_owner,government - hospital district or uthority,government - hospital district or authority
-551.hospital_owner,voluntary non-pofit - private,voluntary non-profit - private
-761.address_three,empyt,empty
-84.address_two,emtpy,empty
-529.measure_code,p-n3b,pn-3b
-392.city,moile,mobile
-130.phone_number,1019914137,3343353374
-644.condition,heart atack,heart attack
-613.city,elab,elba
-585.stateavg,al_scip-inf-y1,al_scip-inf-1
-807.county_name,etwoah,etowah
-218.measure_name,surgery patientsw hose doctors ordered treatments to prevent blood clots after certain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
-594.measure_code,aim-3,ami-3
-120.condition,heart atltack,heart attack
-607.county_name,coffee***,coffee
-133.stateavg,al_pn4-,al_pn-4
-672.address_three,emgpty,empty
-289.hospital_type,acute care hospitfals,acute care hospitals
-693.score,10%0,100%
-661.city,wdowee,wedowee
-5.address_one,1108 ross clark circle,1720 university blvd
-597.emergency_service,ys,yes
-3.hospital_name,southeast alabama medical center,callahan eye foundation hospital
-969.county_name,coffmee,coffee
-324.hospital_owner,proprietry,proprietary
-233.address_two,mpty,empty
-968.measure_name,pneumonia patients whose initial emerency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
-897.emergency_service,yeis,yes
-447.emergency_service,yse,yes
-487.hospital_name,dale medical cenetr,dale medical center
-888.measure_name,hart failure patients given smoking cessation advice/counseling,heart failure patients given smoking cessation advice/counseling
-814.hospital_owner,rpoprietary,proprietary
-43.state,l,al
-727.measure_code,f-4,hf-4
-478.score,5%,85%
-579.county_name,hcambers,chambers
-178.address_two,emptby,empty
-808.hospital_name,gdasden regional medical center,gadsden regional medical center
-264.score,39%,93%
-94.score,29%,92%
-194.score,8c4%,84%
-519.city,motngomery,montgomery
-883.hospital_name,fayette medical enter,fayette medical center
-600.county_name,coffee***,coffee
-27.sample,4t55 patients,455 patients
-453.hospital_type,acute caer hospitals,acute care hospitals
-849.state,avl,al
-553.address_one,1725 pine smtreet,1725 pine street
-760.phone_number,6662430039,3342228466
-611.measure_code,sci-inf-2,scip-inf-2
-451.emergency_service,on,no
-962.county_name,cofftee,coffee
-991.sample,7p atients,7 patients
-493.condition,ehart attack,heart attack
-283.address_one,1000 fiarst street north,1000 first street north
-900.city,ayette,fayette
-713.condition,surgical infection parevention,surgical infection prevention
-116.condition,srugical infection prevention,surgical infection prevention
-498.measure_code,aim-8a,ami-8a
-164.county_name,organ,morgan
-450.emergency_service,es,yes
-373.city,winfild,winfield
-366.address_three,epmty,empty
-255.stateavg,al_h-f4,al_hf-4
-980.county_name,coffe,coffee
-630.hospital_type,acute care hospiatls,acute care hospitals
-68.city,bohaz,boaz
-951.stateavg,al_scipz-inf-3,al_scip-inf-3
-819.hospital_type,avcute care hospitals,acute care hospitals
-545.address_two,epmty,empty
-855.state,l,al
-299.emergency_service,xyes,yes
-204.state,l,al
-72.provider_number,11173,10006
-514.hospital_type,acute are hospitals,acute care hospitals
-30.hospital_name,southeas alabama medical center,southeast alabama medical center
-443.hospital_owner,prporietary,proprietary
-134.stateavg,l_pn-5c,al_pn-5c
-213.county_name,jfeferson,jefferson
-624.hospital_owner,government - hospital distric tor authority,government - hospital district or authority
-735.condition,surgical infection prvention,surgical infection prevention
-534.index,-690,534
-478.emergency_service,yse,yes
-621.hospital_owner,government - hospitgal district or authority,government - hospital district or authority
-174.hospital_owner,government - hopital district or authority,government - hospital district or authority
-271.emergency_service,eys,yes
-663.state,wal,al
-605.sample,12i patients,12 patients
-43.county_name,houstson,houston
-281.state,l,al
-38.hospital_owner,government - hosptal district or authority,government - hospital district or authority
-124.city,luvrene,luverne
-355.county_name,mairon,marion
-488.hospital_type,acut ecare hospitals,acute care hospitals
-80.hospital_owner,voluntary non-profit - othr,voluntary non-profit - other
-334.state,abl,al
-891.city,fayete,fayette
-896.address_two,mpty,empty
-12.index,22.0,12
-878.condition,heart atack,heart attack
-260.sample,26 patixents,26 patients
-468.measure_code,mi-2,ami-2
-109.sample,87 paitents,87 patients
-373.measure_code,sctip-inf-1,scip-inf-1
-382.sample,22 patints,22 patients
-875.city,hmailton,hamilton
-431.sample,1 patients,51 patients
-533.condition,pneumongia,pneumonia
-966.provider_number,5513,10049
-215.hospital_name,st vincentqs east,st vincents east
-849.score,empyt,empty
-830.measure_code,hami-3,ami-3
-306.address_two,empyt,empty
-120.measure_code,ami1,ami-1
-998.address_one,150 gilbreath driev,150 gilbreath drive
-36.measure_code,p-7,pn-7
-699.sample,65 patiets,65 patients
-252.address_three,epty,empty
-860.hospital_name,mraion regional medical center,marion regional medical center
-385.county_name,moile,mobile
-462.address_two,empy,empty
-663.sample,empyt,empty
-57.measure_name,pneumonia patients whose initial emergency room blood culture was performed prior to the adminitsration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
-4.hospital_name,helen keller memorial hospital,callahan eye foundation hospital
-561.emergency_service,eys,yes
-538.sample,125 patzients,125 patients
-16.emergency_service,yaes,yes
-601.measure_code,hwf-3,hf-3
-841.zip_code,52976,35045
-446.address_three,emty,empty
-723.zip_code,28789,35058
-260.county_name,larke,clarke
-919.address_two,emtpy,empty
-610.hospital_type,acutte care hospitals,acute care hospitals
-53.city,boza,boaz
-18.hospital_type,acute care hositals,acute care hospitals
-701.state,aml,al
-552.city,mongomery,montgomery
-42.city,dohtan,dothan
-33.hospital_name,southeast alabama medical ceenter,southeast alabama medical center
-226.hospital_owner,voulntary non-profit - church,voluntary non-profit - church
-671.zip_code,26362,35233
-168.measure_name,surgery patients whose doctorsordered treatments to prevent blood clots after certain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
-286.stateavg,al_np-7,al_pn-7
-280.address_three,mepty,empty
-486.stateavg,al_scip-isnf-2,al_scip-inf-2
-723.measure_code,ami-a,ami-8a
-400.sample,9 3patients,93 patients
-44.emergency_service,yxes,yes
-988.hospital_owner,voluntary non-profit - prvate,voluntary non-profit - private
-644.hospital_name,wedowee hosspital,wedowee hospital
-588.measure_name,all heart surgery patients whose blmood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
-2.provider_number,10019.0,10018
-126.address_two,etmpty,empty
-647.measure_code,ami7a,ami-7a
-375.measure_code,scip-nif-3,scip-inf-3
-238.condition,surgical infeciton prevention,surgical infection prevention
-30.condition,heart faiulre,heart failure
-429.measure_code,n-5c,pn-5c
-972.state,l,al
-717.measure_code,akmi-1,ami-1
-843.phone_number,5479499457,2057552500
-443.zip_code,99527,99508
-930.hospital_type,acute car hospitals,acute care hospitals
-690.condition,surgical infection preveniton,surgical infection prevention
-576.sample,75 ptients,75 patients
-494.measure_code,am-i3,ami-3
-233.county_name,dke kalb,de kalb
-5.provider_number,10019.0,10018
-988.measure_code,hf1-,hf-1
+60.measure_name,pneumonia patients given the most appropriate ienitial antibiotic(s),pneumonia patients given the most appropriate initial antibiotic(s)
+124.address_one,011 hospital circle,101 hospital circle
+642.measure_code,am-i1,ami-1
+877.address_one,1256 military straeet south,1256 military street south
+280.hospital_owner,voluntary non-profit - churhc,voluntary non-profit - church
+676.stateavg,al_whf-3,al_hf-3
+409.address_three,emhpty,empty
+816.measure_name,pneumonia patients given somking cessation advice/counseling,pneumonia patients given smoking cessation advice/counseling
+617.address_one,2000 pepperell parkway***,2000 pepperell parkway
+841.stateavg,alp_n-4,al_pn-4
+221.measure_code,amif-2,ami-2
+801.measure_code,xscip-vte-1,scip-vte-1
+333.score,10%0,100%
+645.score,epmty,empty
+160.address_one,20n1 pine street northwest,201 pine street northwest
+704.stateavg,al_pn-n3b,al_pn-3b
+313.city,annisfton,anniston
+43.hospital_name,southeast alabama medica lcenter,southeast alabama medical center
+610.measure_name,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevnt infection,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
+960.condition,hear attack,heart attack
+376.hospital_name,northwest medical centre,northwest medical center
+778.hospital_owner,government - hospitlal district or authority,government - hospital district or authority
+244.provider_number,5304,10012
+377.measure_name,surgery patients needing hiar removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
+174.measure_name,heart attack patients given beta blokcer at discharge,heart attack patients given beta blocker at discharge
+75.condition,heart kattack,heart attack
+424.hospital_name,coosa valley medical cetner,coosa valley medical center
+245.address_three,mpty,empty
+479.measure_code,pn-p3b,pn-3b
+915.emergency_service,yse,yes
+569.index,2159,569
+2.measure_code,ami-4,scip-inf-1
+721.measure_code,am-5,ami-5
+887.hospital_name,faette medical center,fayette medical center
+482.address_one,126 hospjital ave,126 hospital ave
+380.address_two,empyt,empty
+293.state,la,al
+32.address_one,108 ross clark circle,1108 ross clark circle
+463.address_two,emty,empty
+264.county_name,carke,clarke
+876.address_one,1256military street south,1256 military street south
+269.measure_name,patients who got treatment  at the right time (within 2 hours before or after their surgery) to help prevent blood clots after certain types of surgery,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery
+358.stateavg,la_ami-4,al_ami-4
+353.city,bmirmingham,birmingham
+241.hospital_type,acute care hospitails,acute care hospitals
+29.measure_code,fh-3,hf-3
+807.measure_name,heart attack patients given beta blcker at discharge,heart attack patients given beta blocker at discharge
+77.stateavg,alm_hf-1,al_hf-1
+389.hospital_owner,government - statse,government - state
+645.measure_code,mai-4,ami-4
+446.hospital_name,alaska regioanl hospital,alaska regional hospital
+283.address_three,empy,empty
+96.hospital_name,mizll memorial hospital,mizell memorial hospital
+919.hospital_name,irverview regional medical center,riverview regional medical center
+218.stateavg,al_scip-vte1-,al_scip-vte-1
+367.score,t98%,98%
+907.hospital_owner,prorpietary,proprietary
+255.city,htomasville,thomasville
+584.emergency_service,ypes,yes
+896.measure_name,surgery patients who were given an antibiotic at the wright time (within one hour before surgery) to help prevent infection,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
+844.county_name,hilton,chilton
+943.address_one,515 miarnda st,515 miranda st
+267.emergency_service,ys,yes
+235.address_one,020 med center drive,200 med center drive
+484.measure_name,surgery patients whos were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
+42.zip_code,36330,36302
+306.emergency_service,hyes,yes
+175.emergency_service,es,yes
+619.hospital_owner,government - hospital districwt or authority,government - hospital district or authority
+478.measure_code,pn2-,pn-2
+541.hospital_owner,voluntary onn-profit - church,voluntary non-profit - church
+39.address_two,mepty,empty
+420.measure_code,eami-7a,ami-7a
+42.score,0%,90%
+244.measure_name,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of usrgery,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery
+281.measure_name,pneumonia patients assessed and given penumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+802.hospital_type,acute care hosiptals,acute care hospitals
+585.hospital_owner,voluntary non-prfoit - other,voluntary non-profit - other
+289.hospital_owner,oluntary non-profit - church,voluntary non-profit - church
+48.condition,hart attack,heart attack
+351.hospital_owner,yvoluntary non-profit - other,voluntary non-profit - other
+654.address_three,epty,empty
+782.hospital_type,aute care hospitals,acute care hospitals
+836.hospital_name,achilton medical center,chilton medical center
+322.address_two,epty,empty
+293.provider_number,10060,10016
+229.hospital_name,dekalb egional medical center,dekalb regional medical center
+321.hospital_type,acutecare hospitals,acute care hospitals
+6.city,birmingam,birmingham
+421.sample,0 patitents,0 patients
+772.emergency_service,yecs,yes
+4.phone_number,2.563864556E9,2053258100
+984.emergency_service,eys,yes
+242.address_two,epmty,empty
+829.measure_name,heart attack paitents given aspirin at discharge,heart attack patients given aspirin at discharge
+58.address_one,2505 u s higway 431 north,2505 u s highway 431 north
+434.county_name,nchorage,anchorage
+387.hospital_type,aucte care hospitals,acute care hospitals
+786.county_name,madisn,madison
+49.hospital_type,cute care hospitals,acute care hospitals
+41.address_one,1108 ross clark circel,1108 ross clark circle
+411.state,la,al
+1.provider_number,13004,10018
+335.emergency_service,es,yes
+656.address_two,emdpty,empty
+425.zip_code,45786,35150
+138.hospital_type,acute careh ospitals,acute care hospitals
+573.zip_code,40258,36854
+77.measure_code,hf-q1,hf-1
+224.measure_code,ami5-,ami-5
+101.index,1616,101
+617.measure_name,heart attack pathients given aspirin at arrival,heart attack patients given aspirin at arrival
+509.address_three,empyt,empty
+94.state,la,al
+772.sample,195 paients,195 patients
+713.measure_name,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days riht after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+556.state,l,al
+850.emergency_service,yehs,yes
+235.city,fofrt payne,fort payne
+708.city,tallafssee,tallassee
+164.address_three,mpty,empty
+762.address_three,empyt,empty
+400.state,l,al
+3.phone_number,2.563864556E9,2053258100
+369.address_three,emptsy,empty
+644.city,wedwoee,wedowee
+777.condition,children s asthmac are,children s asthma care
+172.hospital_owner,government - hosxpital district or authority,government - hospital district or authority
+713.hospital_owner,voluntary nons-profit - private,voluntary non-profit - private
+6.index,26.0,6
+539.measure_code,scip-inuf-6,scip-inf-6
+242.score,10%0,100%
+661.county_name,ranolph,randolph
+253.address_one,33070 highway 43,33700 highway 43
+142.measure_code,sci-inf-6,scip-inf-6
+902.address_two,epty,empty
+323.hospital_name,stringifellow memorial hospital,stringfellow memorial hospital
+555.state,la,al
+440.hospital_type,acgute care hospitals,acute care hospitals
+355.hospital_owner,proprietaory,proprietary
+123.address_two,mpty,empty
+705.stateavg,al_pn4-,al_pn-4
+676.condition,hyeart failure,heart failure
+899.city,fayetet,fayette
+839.sample,4 7patients,47 patients
+149.county_name,mogan,morgan
+612.hospital_owner,volunftary non-profit - other,voluntary non-profit - other
+99.zip_code,28740,36467
+767.county_name,calhuon,calhoun
+312.address_three,empety,empty
+784.hospital_owner,government - hosital district or authority,government - hospital district or authority
+455.sample,79 pateints,79 patients
+171.hospital_owner,governament - hospital district or authority,government - hospital district or authority
+45.hospital_type,acute car hospitals,acute care hospitals
+696.address_one,805 frinedship road,805 friendship road
+517.address_one,2105 east souh boulevard,2105 east south boulevard
+239.county_name,de klalb,de kalb
+917.condition,pnieumonia,pneumonia
+233.measure_code,np-4,pn-4
+737.county_name,cllman,cullman
+801.sample,296 patients,269 patients
+164.index,1648,164
+284.address_one,1000 first stret north,1000 first street north
+348.address_one,4370 wets main street,4370 west main street
+947.condition,pneumona,pneumonia
+292.state,dal,al
+295.measure_name,heart attack patients gvien aspirin at arrival,heart attack patients given aspirin at arrival
+666.emergency_service,on,no
+486.city,zark,ozark
+97.address_three,empyt,empty
+551.score,8d5%,85%
+987.condition,heart attakc,heart attack
+273.address_two,epty,empty
+381.measure_name,heart attack patienst given aspirin at discharge,heart attack patients given aspirin at discharge
+221.emergency_service,es,yes
+25.sample,0 patieonts,0 patients
+379.address_three,empyt,empty
+812.score,39%,93%
+404.address_three,epmty,empty
+620.stateavg,al_amiw-4,al_ami-4
+211.measure_code,pn7-,pn-7
+450.provider_number,20087,20017
+533.address_one,2105 east south buolevard,2105 east south boulevard
+314.address_two,mpty,empty
+851.measure_name,surgery patients whoses doctors ordered treatments to prevent blood clots after certain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
+589.hospital_type,acute care hgospitals,acute care hospitals
+932.provider_number,12736,10047
+972.emergency_service,eys,yes
+47.sample,2 paitents,2 patients
+991.score,4%3,43%
+193.stateavg,kal_scip-vte-1,al_scip-vte-1
+532.index,2006,532
+811.measure_code,fh-2,hf-2
+604.measure_name,pneumonia patients whose initial emeregncy room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+73.emergency_service,yxes,yes
+794.address_two,emptcy,empty
+451.city,btehel,bethel
+278.hospital_owner,voluntary non-profit - fchurch,voluntary non-profit - church
+316.stateavg,al_mi-3,al_ami-3
+728.state,ail,al
+460.city,shecffield,sheffield
+479.city,ozakr,ozark
+692.measure_code,ami1-,ami-1
+502.county_name,cheroke,cherokee
+892.hospital_type,acute care hosiptals,acute care hospitals
+843.stateavg,a_lpn-6,al_pn-6
+880.hospital_owner,voluntary non-proift - other,voluntary non-profit - other
+687.address_two,emjpty,empty
+476.city,ozakr,ozark
+270.hospital_name,shelby baptis tmedical center,shelby baptist medical center
+165.stateavg,al_sjcip-inf-3,al_scip-inf-3
+966.state,l,al
+828.measure_name,heart attack patients given aspirin atf arrival,heart attack patients given aspirin at arrival
+641.stateavg,al_sci-pvte-2,al_scip-vte-2
+355.sample,10 paients,10 patients
+559.address_one,1725 pine strexet,1725 pine street
+991.zip_code,35144,35121
+636.measure_code,sciyp-inf-2,scip-inf-2
+777.score,4%,14%
+532.sample,e71 patients,71 patients
+691.address_one,619 south 19th strete,619 south 19th street
+55.emergency_service,yecs,yes
+400.county_name,atauga,autauga
+622.provider_number,7870,10029
+325.hospital_name,stringfellow memorial hopital,stringfellow memorial hospital
+331.sample,23patients,23 patients
+153.measure_name,heart failure patients given an evaluation of left ventricular systolic (lvs) functin,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+480.hospital_owner,government- hospital district or authority,government - hospital district or authority
+824.measure_name,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after suregry,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+779.stateavg,al_ami2-,al_ami-2
+20.stateavg,a_lami-1,al_ami-1
+864.score,96c%,96%
+504.address_three,emtpy,empty
+956.index,-648,956
+270.score,9%,99%
+826.address_three,empy,empty
+773.score,f90%,90%
+210.stateavg,al_p-6,al_pn-6
+891.address_one,1653 temple avenu enorth,1653 temple avenue north
+718.measure_name,heart attack paients given aspirin at discharge,heart attack patients given aspirin at discharge
+589.sample,172l patients,172 patients
+703.emergency_service,on,no
+641.address_two,epmty,empty
+806.emergency_service,yse,yes
+7.address_three,ebmpty,empty
+934.city,georgiamna,georgiana
+781.address_two,gempty,empty
+200.emergency_service,iyes,yes
+914.county_name,etowsah,etowah
+743.county_name,covifngton,covington
+101.measure_code,ami-a8,ami-8a
+258.address_two,empyt,empty
+680.hospital_type,acute care hopitals,acute care hospitals
+15.index,34.0,15
+861.score,0%,80%
+449.state,awk,ak
+167.address_three,mepty,empty
+899.address_three,empy,empty
+250.address_three,emptty,empty
+119.state,l,al
+933.measure_code,ami3-,ami-3
+949.address_one,515 mirancda st,515 miranda st
+892.emergency_service,ys,yes
+461.hospital_type,acut ecare hospitals,acute care hospitals
+991.county_name,blout,blount
+29.measure_name,heartfailure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+329.score,9%2,92%
+350.measure_name,heart atbtack patients given aspirin at discharge,heart attack patients given aspirin at discharge
+303.address_one,1720 university bldv,1720 university blvd
+241.score,ehmpty,empty
+340.score,9%,99%
+534.measure_code,scip-car-d2,scip-card-2
+332.address_three,mpty,empty
+79.condition,heayrt failure,heart failure
+365.hospital_owner,proprietmary,proprietary
+388.emergency_service,yse,yes
+940.measure_name,heart failure patients given ace inhibitor or arb for left ventriculart systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+863.measure_code,haf-4,hf-4
+419.emergency_service,on,no
+120.measure_code,am-i1,ami-1
+380.state,l,al
+219.address_three,empy,empty
+968.stateavg,al_pn-3ib,al_pn-3b
+681.address_one,619s outh 19th street,619 south 19th street
+860.condition,heart filure,heart failure
+418.measure_code,amui-4,ami-4
+553.hospital_name,jackson hosypital & clinic inc,jackson hospital & clinic inc
+868.city,harmilton,hamilton
+823.measure_name,surgery paitents whose preventive antibiotics were stopped at the right time (within 24 hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+890.city,fayetet,fayette
+31.address_two,emptzy,empty
+435.measure_name,heart pfailure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+634.address_one,2000 eppperell parkway,2000 pepperell parkway
+526.hospital_owner,volutnary non-profit - church,voluntary non-profit - church
+311.county_name,jfferson,jefferson
+198.city,birmigham,birmingham
+755.address_two,empy,empty
+307.hospital_owner,voluntary non-proift - private,voluntary non-profit - private
+862.score,8%,78%
+530.state,cal,al
+45.measure_name,heart attack patients given aspriin at arrival,heart attack patients given aspirin at arrival
+950.measure_name,surgery patients who were given the  right kind  of antibiotic to help prevent infeciton,surgery patients who were given the  right kind  of antibiotic to help prevent infection
+547.address_three,mpty,empty
+847.address_two,epty,empty
+992.address_one,150 gilbreath dkrive,150 gilbreath drive
+356.address_one,1530h u s highway 43,1530 u s highway 43
+354.stateavg,al_escip-vte-2,al_scip-vte-2
+88.measure_name,surgery patients woh were given an antibiotic at the right time (within one hour before surgery) to help prevent infection,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
+882.sample,11 paitents,11 patients
+37.hospital_name,southeast alabama medical cenetr,southeast alabama medical center
+566.emergency_service,yres,yes
+490.score,8%,88%
+644.emergency_service,o,no
+606.measure_code,p-n5c,pn-5c
+4.address_one,1108 ross clark circle,1720 university blvd
+784.hospital_name,huntsville ohspital,huntsville hospital
+7.measure_code,ami-3,scip-vte-1
+452.condition,heart atack,heart attack
+424.stateavg,avl_hf-3,al_hf-3
+892.county_name,ofayette,fayette
+241.hospital_owner,voluntary non-proift - church,voluntary non-profit - church
+981.measure_name,heart attack patients gvien aspirin at arrival,heart attack patients given aspirin at arrival
+692.county_name,elmoe,elmore
+829.county_name,hilton,chilton
+548.emergency_service,yse,yes
+581.address_two,empyt,empty
+292.emergency_service,ys,yes
+536.address_one,2105 east south boulveard,2105 east south boulevard
+212.sample,125 patietns,125 patients
+579.measure_name,pneumonia patients whose initial emergency room blood culture was performed prior to the admiistration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+234.state,l,al
+800.address_two,gempty,empty
+2.stateavg,al_scip-card-2,al_scip-inf-1
+981.hospital_name,st vincents bolunt,st vincents blount
+934.measure_name,heart attack patients given smoking cessation adice/counseling,heart attack patients given smoking cessation advice/counseling
+976.measure_name,surgery patients whose preventives antibiotics were stopped at the right time (within 24 hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+987.city,coneonta,oneonta
+472.measure_name,heart attak patients given fibrinolytic medication within 30 minutes of arrival,heart attack patients given fibrinolytic medication within 30 minutes of arrival
 4.provider_number,10001.0,10018
-530.address_three,eympty,empty
-265.address_one,33700 highwya 43,33700 highway 43
-369.hospital_owner,prorpietary,proprietary
-843.stateavg,al_np-6,al_pn-6
-15.county_name,jeafferson,jefferson
-472.sample,2 patzients,2 patients
-904.measure_code,cac2-,cac-2
-468.hospital_owner,goveqrnment - hospital district or authority,government - hospital district or authority
-805.city,gadsdne,gadsden
-4.index,9.0,4
-982.score,100%***,100%
-453.address_two,epty,empty
-81.condition,peumonia,pneumonia
-946.state,la,al
-142.condition,surgical infection prevenion,surgical infection prevention
-679.hospital_owner,governmnet - state,government - state
-249.stateavg,al_ai-5,al_ami-5
-641.hospital_name,east alabama medial center and snf,east alabama medical center and snf
-844.measure_name,pnweumonia patients assessed and given influenza vaccination,pneumonia patients assessed and given influenza vaccination
-449.provider_number,20111,20017
-800.county_name,maison,madison
-583.condition,penumonia,pneumonia
-837.hospital_type,acute cazre hospitals,acute care hospitals
-937.sample,0 atients,0 patients
-236.score,8%,98%
-449.stateavg,ak_scip-hvte-1,ak_scip-vte-1
-760.emergency_service,on,no
-817.state,la,al
-592.stateavg,l_ami-1,al_ami-1
-130.hospital_name,crenshaw communityh ospital,crenshaw community hospital
-97.hospital_type,acute care hosptials,acute care hospitals
-143.measure_name,surgery patients whose doctors oredred treatments to prevent blood clots after certain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
-496.county_name,cherokee***,cherokee
-101.county_name,covipngton,covington
-605.hospital_owner,fvoluntary non-profit - other,voluntary non-profit - other
-637.state,l,al
-2.hospital_name,helen keller memorial hospital,callahan eye foundation hospital
-572.condition,heart gattack,heart attack
-439.measure_name,pneumoni apatients given smoking cessation advice/counseling,pneumonia patients given smoking cessation advice/counseling
-250.hospital_name,sothwest alabama medical center,southwest alabama medical center
-127.county_name,crneshaw,crenshaw
-528.address_one,2105 eas south boulevard,2105 east south boulevard
-421.address_two,empyt,empty
-119.hospital_name,mizell memorial chospital,mizell memorial hospital
-638.phone_number,877972097,3347493411
-556.measure_name,pneumonia patients given initial antibiotic(s) within 6 hours after karrival,pneumonia patients given initial antibiotic(s) within 6 hours after arrival
-363.phone_number,5826622805,2054877736
-843.measure_name,pneumonia patients given the most approriate initial antibiotic(s),pneumonia patients given the most appropriate initial antibiotic(s)
-738.measure_code,scipa-inf-4,scip-inf-4
-27.condition,heart faihlure,heart failure
-440.hospital_owner,porprietary,proprietary
-538.stateavg,al_scip-in-f4,al_scip-inf-4
-67.state,la,al
-538.score,5%,95%
-745.emergency_service,nqo,no
-839.address_one,1010 lay damr oad,1010 lay dam road
-542.hospital_name,jackson hvospital & clinic inc,jackson hospital & clinic inc
-439.county_name,anchorae,anchorage
-721.measure_name,heart attack paitents given beta blocker at discharge,heart attack patients given beta blocker at discharge
-735.stateavg,al_scipinf-1,al_scip-inf-1
-248.address_two,empfty,empty
-732.sample,136 pastients,136 patients
-320.measure_code,ami-a8,ami-8a
-926.hospital_name,rivervie regional medical center,riverview regional medical center
-766.sample,66 paients,66 patients
-957.address_three,epty,empty
-122.sample,0 patieints,0 patients
-282.hospital_owner,voluntary non-proift - church,voluntary non-profit - church
-490.emergency_service,ys,yes
-342.measure_name,surgery patients who were given an antibiotic at teh right time (within one hour before surgery) to help prevent infection,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
-273.condition,eart attack,heart attack
-340.measure_name,pneumona patients assessed and given influenza vaccination,pneumonia patients assessed and given influenza vaccination
-534.score,7%,97%
-267.state,la,al
-919.score,10r0%,100%
-28.score,k99%,99%
-912.score,10b0%,100%
-24.score,9%,99%
-43.hospital_owner,government - hospital district or authvority,government - hospital district or authority
-565.emergency_service,ys,yes
-512.measure_code,scip-in-f3,scip-inf-3
-362.address_one,1530 ou s highway 43,1530 u s highway 43
-714.phone_number,1302656323,3342836541
-509.sample,nempty,empty
-26.address_one,1108r oss clark circle,1108 ross clark circle
-646.address_three,emhpty,empty
-776.emergency_service,byes,yes
-721.stateavg,ala_mi-5,al_ami-5
-669.sample,87 patientas,87 patients
-451.state,k,ak
-75.city,forence,florence
-74.city,florenec,florence
-266.state,la,al
-829.condition,hearta ttack,heart attack
-55.address_two,empyt,empty
-29.emergency_service,eys,yes
-38.address_one,1108 ross clark circel,1108 ross clark circle
-197.city,birminghm,birmingham
-909.emergency_service,es,yes
-24.state,la,al
-366.hospital_owner,proprieary,proprietary
-134.zip_code,32186,36049
-604.emergency_service,es,yes
-788.county_name,maison,madison
-325.county_name,calhdoun,calhoun
-207.county_name,jeffesron,jefferson
-839.condition,pnetumonia,pneumonia
-3.sample,emwpty,empty
-200.provider_number,8426,10011
-626.hospital_type,acute cuare hospitals,acute care hospitals
+888.city,faeytte,fayette
+573.condition,iheart attack,heart attack
+811.phone_number,1178091955,2564944000
+716.state,aml,al
+918.condition,pnneumonia,pneumonia
+834.hospital_type,acute care hospitalms,acute care hospitals
+220.address_three,empyt,empty
+802.county_name,madfison,madison
+268.emergency_service,es,yes
+945.condition,pneumnia,pneumonia
+15.measure_name,heart attack patients given pci iwthin 90 minutes of arrival,heart attack patients given pci within 90 minutes of arrival
+958.phone_number,1063366648,3343470584
+812.hospital_type,acutem care hospitals,acute care hospitals
+501.hospital_owner,voluntaryp non-profit - private,voluntary non-profit - private
+789.stateavg,al_pn2-,al_pn-2
+697.hospital_name,community hosptial inc,community hospital inc
+472.county_name,dtale,dale
+430.hospital_owner,voluntary non-porfit - other,voluntary non-profit - other
+11.index,9.0,11
+491.condition,surgical infection prevetnion,surgical infection prevention
+236.condition,pneiumonia,pneumonia
+129.address_one,101 hospitasl circle,101 hospital circle
+368.measure_code,n-4,pn-4
+837.address_three,mepty,empty
+393.score,00%,100%
+645.state,apl,al
+497.address_one,400 northrwood dr,400 northwood dr
+728.measure_name,pneumonia patients assessed and given pneumococcal vaccinatidon,pneumonia patients assessed and given pneumococcal vaccination
+183.score,9%,94%
+841.address_one,1010 lay da road,1010 lay dam road
+58.hospital_owner,government - hospital district or auhority,government - hospital district or authority
+974.emergency_service,es,yes
+971.score,9%9,99%
+721.county_name,culqlman,cullman
+117.county_name,covigton,covington
+18.state,pal,al
+241.measure_code,scimp-inf-4,scip-inf-4
+157.address_two,emty,empty
+61.measure_name,pneumonia patients assessed and given influenza vapccination,pneumonia patients assessed and given influenza vaccination
+948.hospital_name,georigana hospital,georgiana hospital
+646.condition,heart attacyk,heart attack
+917.measure_code,phn-2,pn-2
+744.state,la,al
+37.stateavg,al_sciap-card-2,al_scip-card-2
+346.hospital_owner,prcoprietary,proprietary
+831.measure_code,ami-s4,ami-4
+458.city,sheffiedl,sheffield
+714.address_two,mepty,empty
+156.score,98x%,98%
+198.score,q100%,100%
+497.state,la,al
+417.stateavg,ala_mi-3,al_ami-3
+678.stateavg,alpn-2,al_pn-2
+719.score,7%,67%
+442.hospital_type,acute care hsopitals,acute care hospitals
+453.address_one,1300 south montgomery aveneu,1300 south montgomery avenue
+809.emergency_service,ys,yes
+187.address_one,8000 alabamav highway 69,8000 alabama highway 69
+272.hospital_name,shelby baptist medicawl center,shelby baptist medical center
+410.hospital_type,acutecare hospitals,acute care hospitals
+869.measure_code,p-7,pn-7
+13.hospital_owner,govnernment - hospital district or authority,government - hospital district or authority
+426.score,9%,93%
+605.city,ela,elba
+719.county_name,cullmna,cullman
+956.score,10%0,100%
+91.address_three,empy,empty
+31.measure_code,pn2-,pn-2
+83.condition,pnumonia,pneumonia
+842.score,h98%,98%
+709.city,tallasseoe,tallassee
+963.score,9x6%,96%
+889.score,85l%,85%
+668.condition,heart attakc,heart attack
+21.address_one,1108 ross clark cirocle,1108 ross clark circle
+467.measure_name,heartattack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+640.hospital_type,caute care hospitals,acute care hospitals
+777.stateavg,al_cac-p3,al_cac-3
+12.measure_name,heart attack patients given smoknig cessation advice/counseling,heart attack patients given smoking cessation advice/counseling
+637.hospital_owner,goverinment - hospital district or authority,government - hospital district or authority
+366.address_one,1530  s highway 43,1530 u s highway 43
+393.condition,hearta ttack,heart attack
+921.condition,penumonia,pneumonia
+495.city,center,centre
+510.score,%0,0%
+364.hospital_type,caute care hospitals,acute care hospitals
+192.address_two,emfpty,empty
+358.city,wrinfield,winfield
+294.hospital_type,acute care uhospitals,acute care hospitals
+575.measure_name,heart failure patinets given an evaluation of left ventricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+778.hospital_type,acuteq care hospitals,acute care hospitals
+271.city,alabasetr,alabaster
+768.measure_name,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infetcion,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
+488.measure_code,scip-in-f4,scip-inf-4
+830.stateavg,al_sami-3,al_ami-3
+437.emergency_service,yse,yes
+639.measure_code,sxcip-inf-6,scip-inf-6
+293.emergency_service,eys,yes
+219.county_name,jmefferson,jefferson
+830.measure_name,heart attack patients givenace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+264.measure_code,scip-inf2,scip-inf-2
+698.score,empy,empty
+502.hospital_name,cherokee medcal center,cherokee medical center
+958.sample,y0 patients,0 patients
+2.index,13.0,2
+288.emergency_service,eys,yes
+308.address_three,mpty,empty
+889.address_two,empy,empty
+150.county_name,mogran,morgan
+590.hospital_type,acutbe care hospitals,acute care hospitals
+597.county_name,coffe,coffee
+90.hospital_owner,voluntary non-profit - ther,voluntary non-profit - other
+182.hospital_type,acute care ihospitals,acute care hospitals
+931.county_name,btuler,butler
+52.measure_name,heart failure patients given discharge nistructions,heart failure patients given discharge instructions
+512.score,%,0%
+524.state,la,al
+835.hospital_type,aecute care hospitals,acute care hospitals
+719.city,ucllman,cullman
+4.index,21.0,4
+199.sample,288 ptients,288 patients
+992.state,nal,al
+537.score,9f4%,94%
+256.measure_name,pneumonia patients assessed and given pneumococcral vaccination,pneumonia patients assessed and given pneumococcal vaccination
+326.city,annston,anniston
+951.address_one,515 mirandas t,515 miranda st
+244.address_three,uempty,empty
+171.city,guntebrsville,guntersville
+700.score,10%,100%
+840.stateavg,alg_pn-3b,al_pn-3b
+999.hospital_owner,voluntary non-profit - pirvate,voluntary non-profit - private
+713.stateavg,a_scip-inf-4,al_scip-inf-4
+892.address_two,epty,empty
+623.hospital_name,east alabama mediclal center and snf,east alabama medical center and snf
+436.sample,13 patiets,13 patients
+785.emergency_service,dyes,yes
+350.measure_code,ami2-,ami-2
+250.score,emmpty,empty
+177.city,guntersville***,guntersville
+947.hospital_owner,oluntary non-profit - private,voluntary non-profit - private
+269.city,thomasvlille,thomasville
+481.address_two,emty,empty
+300.measure_name,heart attack patients given fibrinolytic medication within 30 minutes of arrhival,heart attack patients given fibrinolytic medication within 30 minutes of arrival
+703.city,tallsasee,tallassee
+549.county_name,montgomfery,montgomery
+695.county_name,elmoe,elmore
+295.score,emdpty,empty
+14.hospital_type,acute care hsopitals,acute care hospitals
+40.condition,surgicall infection prevention,surgical infection prevention
+668.sample,136 patients,316 patients
+910.hospital_name,irverview regional medical center,riverview regional medical center
+697.state,ayl,al
+107.measure_name,peumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+958.score,empyt,empty
+90.address_two,iempty,empty
+196.hospital_type,acute care htospitals,acute care hospitals
+138.measure_code,sci-pinf-1,scip-inf-1
+258.county_name,clarkge,clarke
+738.sample,0i patients,0 patients
+325.hospital_type,acute care hkospitals,acute care hospitals
+633.hospital_owner,government - hospitald istrict or authority,government - hospital district or authority
+625.measure_name,heart failure patientsd given an evaluation of left ventricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+46.hospital_name,marshall medical cente south,marshall medical center south
+239.measure_code,cip-inf-2,scip-inf-2
+691.condition,surgical infection preventon,surgical infection prevention
+817.state,l,al
+733.hospital_owner,goevrnment - hospital district or authority,government - hospital district or authority
+958.measure_name,heart attack patients given ace inhibitor or arb for left ventricular systolic dysfuntion (lvsd),heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+933.county_name,utler,butler
+8.address_one,1300 south montgomery avenue,1720 university blvd
+375.county_name,maarion,marion
+584.condition,surgical infetion prevention,surgical infection prevention
+443.address_one,2801 debarr roxad,2801 debarr road
+524.stateavg,al_hf-l1,al_hf-1
+953.stateavg,al_scipi-nf-6,al_scip-inf-6
+542.measure_name,heart attack patients given aspirin t arrival,heart attack patients given aspirin at arrival
+354.county_name,mogan,morgan
+257.emergency_service,yues,yes
+676.index,-650,676
+482.measure_name,pneumonia patients given the most appropriate initial antibotic(s),pneumonia patients given the most appropriate initial antibiotic(s)
+768.measure_code,scip-nf-1,scip-inf-1
+16.index,1.0,16
+546.stateavg,axl_ami-5,al_ami-5
+438.address_one,2801 debrar road,2801 debarr road
+580.score,1%,91%
+375.address_three,epmpty,empty
+600.condition,heart failuer,heart failure
+19.index,22.0,19
+878.city,fayettye,fayette
+445.score,9u8%,98%
+103.emergency_service,uno,no
+586.score,93g%,93%
+162.measure_code,scip-crard-2,scip-card-2
+242.state,abl,al
+391.emergency_service,gyes,yes
+477.measure_name,heart failure patients given smoking cessation advice/conuseling,heart failure patients given smoking cessation advice/counseling
+970.address_one,40 n edwards street,400 n edwards street
+853.city,hmilton,hamilton
+702.condition,heartf ailure,heart failure
+898.sample,0o patients,0 patients
+689.hospital_type,acute care yhospitals,acute care hospitals
+96.measure_name,heart attack patients given aspizrin at discharge,heart attack patients given aspirin at discharge
+31.hospital_name,southeast alabama medical clenter,southeast alabama medical center
+503.score,93q%,93%
+81.emergency_service,yeqs,yes
+611.hospital_owner,voluntary non-prnofit - other,voluntary non-profit - other
+496.sample,0 paitents,0 patients
+709.condition,surgica infection prevention,surgical infection prevention
+858.score,epty,empty
+174.stateavg,al_ami5-,al_ami-5
+786.sample,03 patients,303 patients
+655.measure_name,pneumonia patients given smoking cessation advice/counesling,pneumonia patients given smoking cessation advice/counseling
+886.state,la,al
+425.emergency_service,mno,no
+50.condition,hearta ttack,heart attack
+115.measure_code,scip-inf3-,scip-inf-3
+874.hospital_owner,volunatry non-profit - private,voluntary non-profit - private
+832.sample,1 paktients,1 patients
+372.measure_code,scip-cad-2,scip-card-2
+935.measure_name,heart attack patients given beta blocker at ldischarge,heart attack patients given beta blocker at discharge
+712.measure_name,surgery patients whose preventive antibiotics were stopped at the right time (within 24hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+941.city,gorgiana,georgiana
+439.stateavg,ak_np-4,ak_pn-4
+861.emergency_service,ys,yes
+779.measure_code,azmi-2,ami-2
+143.hospital_type,cute care hospitals,acute care hospitals
+79.address_one,205 mcarengo street,205 marengo street
+3.provider_number,10001.0,10018
+398.measure_code,amil-8a,ami-8a
+816.hospital_type,acute carep hospitals,acute care hospitals
+814.measure_name,pneumonia patiets assessed and given pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+896.state,oal,al
+272.measure_code,aim-3,ami-3
+202.stateavg,al_hyf-1,al_hf-1
+65.hospital_type,acute care hhospitals,acute care hospitals
+226.stateavg,al_mi-8a,al_ami-8a
+599.address_one,987 drayton treet,987 drayton street
+191.score,emptpy,empty
+609.score,mpty,empty
+492.provider_number,13110,10022
+657.address_one,209 north mainj street,209 north main street
+448.state,aok,ak
+159.hospital_owner,lproprietary,proprietary
+958.city,nterprise,enterprise
+519.state,l,al
+987.stateavg,l_ami-8a,al_ami-8a
+884.measure_code,ami-a,ami-8a
+128.condition,heart faiulre,heart failure
+137.county_name,crensaw,crenshaw
+625.emergency_service,es,yes
+423.address_three,empy,empty
+351.stateavg,la_ami-3,al_ami-3
+585.address_one,4800 4th st,4800 48th st
+554.hospital_owner,volntary non-profit - private,voluntary non-profit - private
+639.county_name,lee***,lee
+966.city,enterpfrise,enterprise
+513.measure_name,all hearjt surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
+309.city,birmingdham,birmingham
+135.measure_name,pneumonia patients given the most appropriate initial antibiotioc(s),pneumonia patients given the most appropriate initial antibiotic(s)
+565.address_one,1725 pine sreet,1725 pine street
+390.address_one,2451 fillingim street***,2451 fillingim street
+169.state,l,al
+141.emergency_service,yues,yes
+664.measure_name,surgery patients needing hair ermoved from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
+574.measure_code,h-1,hf-1
+235.measure_code,pcn-6,pn-6
+928.sample,607 patienst,607 patients
+363.hospital_name,northwest medical centre,northwest medical center
+568.hospital_type,acue care hospitals,acute care hospitals
+261.emergency_service,eys,yes
+929.condition,surgical infection rpevention,surgical infection prevention
+52.emergency_service,es,yes
+132.measure_name,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotihcs,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+193.emergency_service,es,yes
+427.hospital_owner,voluntary non-prfit - other,voluntary non-profit - other
+480.hospital_name,dale meical center,dale medical center
+614.sample,mpty,empty
+479.emergency_service,eys,yes
+955.address_one,51 miranda st,515 miranda st
+446.measure_name,surgery patients whose preventive antibriotics were stopped at the right time (within 24 hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+994.city,oneontja,oneonta
+964.county_name,cboffee,coffee
+382.condition,heafrt attack,heart attack
+902.hospital_name,fayette medicalcenter,fayette medical center
+206.hospital_name,st vicnents east,st vincents east
+468.score,100z%,100%
+781.hospital_owner,government - hospital ditsrict or authority,government - hospital district or authority
+4.measure_name,heart attack patients given aspirin at arrival,surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+106.provider_number,11136,10007
+299.state,ahl,al
+738.city,clulman,cullman
+324.stateavg,al_hf4,al_hf-4
+201.provider_number,12815,10011
+485.address_one,126 hospitaxl ave,126 hospital ave
+626.sample,272 patints,272 patients
+637.hospital_name,east laabama medical center and snf,east alabama medical center and snf
+618.stateavg,l_ami-2,al_ami-2
+120.measure_name,haert attack patients given aspirin at arrival,heart attack patients given aspirin at arrival
+404.measure_code,pnh-3b,pn-3b
+705.emergency_service,nqo,no
+524.measure_code,hf1-,hf-1
+223.address_three,mepty,empty
+41.hospital_type,acuste care hospitals,acute care hospitals
+243.hospital_name,dekalsb regional medical center,dekalb regional medical center
+811.score,100z%,100%
+850.hospital_owner,voluantary non-profit - private,voluntary non-profit - private
+848.hospital_name,chilton medical cenetr,chilton medical center
+379.county_name,imarion,marion
+876.stateavg,al_scip-vte1-,al_scip-vte-1
+52.state,l,al
+161.state,la,al
+130.stateavg,al_hmf-4,al_hf-4
+50.address_two,embpty,empty
+980.hospital_type,acute care uhospitals,acute care hospitals
+530.hospital_owner,voluntary non-proafit - church,voluntary non-profit - church
+59.emergency_service,ys,yes
+728.hospital_type,acute care hosjpitals,acute care hospitals
+410.address_three,emepty,empty
+978.address_one,x400 n edwards street,400 n edwards street
+455.measure_code,pn4-,pn-4
+7.state,la,al
+112.address_three,empy,empty
+461.stateavg,al_sacip-inf-2,al_scip-inf-2
+181.emergency_service,gyes,yes
+439.hospital_type,cute care hospitals,acute care hospitals
+528.measure_name,pneumonia pastients assessed and given pneumococcal vaccination,pneumonia patients assessed and given pneumococcal vaccination
+157.measure_code,pn-r3b,pn-3b
+248.measure_code,dami-4,ami-4
+491.city,ozkark,ozark
+423.score,9%,99%
+382.hospital_name,unv of south alabama medical center,univ of south alabama medical center
+253.sample,91 patienths,91 patients
+719.condition,heart attack***,heart attack
+897.city,faryette,fayette
+487.emergency_service,yse,yes
+427.city,sylacuga,sylacauga
+426.hospital_owner,voluntary on-profit - other,voluntary non-profit - other
+520.emergency_service,eys,yes
+232.hospital_owner,voluntaryn on-profit - church,voluntary non-profit - church
+337.county_name,housotn,houston
+263.sample,14 patietns,14 patients
+78.city,floirence,florence
+604.state,l,al
+394.stateavg,al_aim-3,al_ami-3
+4.city,dothan,birmingham
+897.hospital_name,faette medical center,fayette medical center
+191.city,guntersvile,guntersville
+582.hospital_type,acute care hostpitals,acute care hospitals
+470.measure_name,heart attack patients givenq smoking cessation advice/counseling,heart attack patients given smoking cessation advice/counseling
+384.provider_number,11488,10087
+980.emergency_service,yeqs,yes
+681.address_two,mepty,empty
+488.score,epty,empty
+694.measure_code,agmi-3,ami-3
+595.sample,emptyy,empty
+60.hospital_type,acute care hospials,acute care hospitals
+138.emergency_service,yeds,yes
+799.address_one,101 sively rd,101 sivley rd
+200.measure_name,heart attack patientjs given fibrinolytic medication within 30 minutes of arrival,heart attack patients given fibrinolytic medication within 30 minutes of arrival
+133.address_two,empy,empty
+589.measure_code,scipinf-6,scip-inf-6
+222.address_two,egmpty,empty
+478.address_one,126 hospital avve,126 hospital ave
+452.measure_code,amwi-2,ami-2
+376.address_one,1530 u s ighway 43,1530 u s highway 43
+993.provider_number,10085,10050
+715.county_name,emore,elmore
+545.condition,hart attack,heart attack
+10.address_one,1300 south montgomey avenue,1300 south montgomery avenue
+442.provider_number,7116,20017
+107.address_one,70 n main st,702 n main st
+42.emergency_service,ymes,yes
+296.hospital_name,callahan eye foundataion hospital,callahan eye foundation hospital
+311.measure_name,pnaeumonia patients assessed and given influenza vaccination,pneumonia patients assessed and given influenza vaccination
+848.county_name,chiltno,chilton
+772.hospital_type,acute care hspitals,acute care hospitals
+429.address_one,315 w hickoy st,315 w hickory st
+819.score,6%,96%
+533.stateavg,alp_n-7,al_pn-7
+141.hospital_owner,government - fderal,government - federal
+802.score,0%,90%
+803.county_name,towah,etowah
+310.sample,mepty,empty
+986.emergency_service,es,yes
+33.sample,107 ptaients,107 patients
+2.phone_number,2.563864556E9,2053258100
+354.city,dcatur,decatur
+22.sample,71x patients,71 patients
+245.measure_code,amoi-1,ami-1
+61.state,abl,al
+659.measure_name,surgery patients who were taking heart drugs called beta blockers before comxing to the hospital who were kept on the beta blockers during the period just before and after their surgery,surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery
+242.stateavg,al_sycip-inf-6,al_scip-inf-6
+443.emergency_service,xyes,yes
+172.score,5u0%,50%
+824.score,4%,94%
+734.condition,surgical ifnection prevention,surgical infection prevention
+78.score,7%,97%
+831.address_two,mepty,empty
+661.score,mpty,empty
+322.county_name,caalhoun,calhoun
+903.sample,4 patlients,4 patients
+649.hospital_type,acut care hospitals,acute care hospitals
+782.score,00%,100%
+795.address_two,mepty,empty
+7.address_two,empyt,empty
+106.measure_code,p-2,pn-2
+82.hospital_owner,voluntacry non-profit - other,voluntary non-profit - other
+832.emergency_service,es,yes
+400.condition,haert failure,heart failure
+58.address_two,emptly,empty
+37.address_one,1108 ross clark cirrcle,1108 ross clark circle
+161.measure_code,n-7,pn-7
+22.measure_code,mi-3,ami-3
+293.stateavg,al_scip-vte-e1,al_scip-vte-1
+913.county_name,etwah,etowah
+579.hospital_type,acute care ospitals,acute care hospitals
+448.city,anqchorage,anchorage
+617.emergency_service,eys,yes
+883.emergency_service,ys,yes
+994.hospital_owner,volvuntary non-profit - private,voluntary non-profit - private
+44.phone_number,3347938733,3347938701
+49.emergency_service,yse,yes
+270.county_name,smhelby,shelby
+402.city,prattvilel,prattville
+352.measure_name,heart attack patients given smoking cessation advice/counselign,heart attack patients given smoking cessation advice/counseling
+923.address_one,600 sousth third street,600 south third street
+449.measure_code,scip-vte1-,scip-vte-1
+893.hospital_name,fayette edical center,fayette medical center
+427.condition,pneumoia,pneumonia
+501.city,entre,centre
+303.sample,mpty,empty
+496.hospital_type,acute care hohspitals,acute care hospitals
+901.state,l,al
+37.zip_code,39237,36302
+723.county_name,cullan,cullman
+677.hospital_name,univesrity of alabama hospital,university of alabama hospital
+236.county_name,de kailb,de kalb
+336.hospital_type,acute crae hospitals,acute care hospitals
+106.score,d87%,87%
+72.measure_name,heart attack patients given ace inhibitor or arb for left ventricular systolic dyfsunction (lvsd),heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+43.address_one,1108k ross clark circle,1108 ross clark circle
+282.measure_code,pn3b,pn-3b
+335.hospital_name,flowrs hospital,flowers hospital
+335.measure_code,p-n2,pn-2
+53.hospital_owner,government - hospital district or authoriyt,government - hospital district or authority
+433.address_three,eumpty,empty
+742.hospital_name,andalusi aregional hospital,andalusia regional hospital
+971.hospital_name,medicl center enterprise,medical center enterprise
+475.hospital_type,caute care hospitals,acute care hospitals
+373.score,9%8,98%
+299.hospital_owner,voluntary non-profit - pyrivate,voluntary non-profit - private
+577.address_two,epty,empty
+300.address_three,empy,empty
+554.measure_name,pnuemonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+992.emergency_service,ys,yes
+583.address_one,480r0 48th st,4800 48th st
+901.address_three,empyt,empty
+461.city,shefield,sheffield
+334.county_name,houstno,houston
+113.score,8%,88%
+90.hospital_type,acute caare hospitals,acute care hospitals
+600.city,lba,elba
+350.city,birminghma,birmingham
+65.stateavg,al_sicp-inf-3,al_scip-inf-3
+351.county_name,jfeferson,jefferson
+163.address_two,epmty,empty
+430.sample,57 patieknts,57 patients
+292.city,labaster,alabaster
+386.city,obile,mobile
+55.address_three,mpty,empty
+239.hospital_name,dekalb regional meical center,dekalb regional medical center
+908.index,2110,908
+805.condition,heaert attack,heart attack
+322.city,annistno,anniston
+889.address_one,1653 tmple avenue north,1653 temple avenue north
+217.score,10%,100%
+378.hospital_type,acute care hospitas,acute care hospitals
+902.hospital_type,acute care hospitlas,acute care hospitals
+70.zip_code,23385,35631
+180.hospital_name,marsall medical center north,marshall medical center north
+192.stateavg,a_lscip-inf-6,al_scip-inf-6
+20.address_three,evmpty,empty
+785.sample,264 aptients,264 patients
+866.measure_code,p-4,pn-4
+146.score,10z0%,100%
+49.stateavg,al_aumi-5,al_ami-5
+803.address_two,emprty,empty
+24.hospital_name,outheast alabama medical center,southeast alabama medical center
+882.measure_name,heart attack patients given beta blocker ato discharge,heart attack patients given beta blocker at discharge
+90.county_name,lajuderdale,lauderdale
+355.phone_number,1209332536,2054877736
+15.county_name,jrefferson,jefferson
+585.city,valely,valley
+747.state,l,al
+157.state,la,al
+613.sample,empgty,empty
+975.address_one,400 dn edwards street,400 n edwards street
+93.measure_code,scip-fvte-1,scip-vte-1
+994.hospital_type,acut care hospitals,acute care hospitals
+586.county_name,hcambers,chambers
+477.hospital_type,acute care hosrpitals,acute care hospitals
+397.hospital_type,acute car ehospitals,acute care hospitals
+119.measure_code,csip-vte-2,scip-vte-2
+843.measure_code,pn6-,pn-6
+8.phone_number,2.563864556E9,2053258100
+275.hospital_type,acute icare hospitals,acute care hospitals
+800.condition,surgical infection prevnetion,surgical infection prevention
+320.address_one,301 east u18th st,301 east 18th st
+937.county_name,vbutler,butler
+613.condition,surgical cinfection prevention,surgical infection prevention
+704.state,xal,al
+438.measure_code,pn-b3,pn-3b
+878.address_one,1653 temple avenue nroth,1653 temple avenue north
+273.state,la,al
+237.county_name,de kabl,de kalb
+888.measure_code,hf4-,hf-4
+673.emergency_service,uyes,yes
+232.address_three,empdty,empty
+282.county_name,shebly,shelby
+187.hospital_owner,government - hospital distirct or authority,government - hospital district or authority
+926.condition,subrgical infection prevention,surgical infection prevention
+259.address_one,3370l0 highway 43,33700 highway 43
+900.stateavg,al_scip-in-f6,al_scip-inf-6
+758.city,andausia,andalusia
+212.emergency_service,yse,yes
+949.address_two,mepty,empty
+537.emergency_service,ys,yes
+882.hospital_owner,voluntary non-profitb - other,voluntary non-profit - other
+155.state,l,al
+579.state,l,al
+775.address_three,mepty,empty
+17.state,la,al
+245.hospital_name,southwes talabama medical center,southwest alabama medical center
+374.address_three,epmty,empty
+294.hospital_owner,voluntary non-prfit - church,voluntary non-profit - church
+293.county_name,shelyb,shelby
+228.hospital_owner,voluntary non-profit - chruch,voluntary non-profit - church
+326.measure_name,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dosse of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+100.address_three,mpty,empty
+74.sample,227 patienst,227 patients
+844.state,la,al
+273.measure_name,heart attback patients given smoking cessation advice/counseling,heart attack patients given smoking cessation advice/counseling
+505.state,l,al
+69.sample,76 pamtients,76 patients
+842.city,cylanton,clanton
+953.score,empnty,empty
+344.measure_name,surgery patients whose prevetnive antibiotics were stopped at the right time (within 24 hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+437.measure_code,np-2,pn-2
+463.measure_code,scpi-inf-4,scip-inf-4
+35.measure_code,np-6,pn-6
+460.hospital_owner,government - hospital mdistrict or authority,government - hospital district or authority
+893.stateavg,al_np-6,al_pn-6
+110.county_name,covinton,covington
+68.measure_name,surgery patients whose doctors ordered treatments to prevent blood clots after ceretain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
+724.emergency_service,ys,yes
+702.stateavg,la_hf-4,al_hf-4
+596.address_two,empyt,empty
+600.measure_name,heart failure patients given an evaluation of left venutricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+666.address_three,emptyy,empty
+810.condition,eart failure,heart failure
+944.emergency_service,on,no
+626.provider_number,8275,10029
+117.measure_code,sip-inf-6,scip-inf-6
+241.stateavg,al_sci-inf-4,al_scip-inf-4
+553.stateavg,al_pn2,al_pn-2
+43.state,l,al
+166.city,hartselel,hartselle
+449.zip_code,99522,99508
+200.measure_code,mai-7a,ami-7a
+875.sample,19 patienst,19 patients
+366.hospital_type,acute care hospitlas,acute care hospitals
+848.score,10%,100%
+372.address_two,emkpty,empty
+57.score,97k%,97%
+429.measure_code,fpn-5c,pn-5c
+635.address_three,epmty,empty
+21.measure_code,ami-e2,ami-2
+905.condition,children s asthma acre,children s asthma care
+160.score,10%,100%
+12.index,8.0,12
+384.measure_code,aomi-5,ami-5
+415.address_one,35 w hickory st,315 w hickory st
+733.address_one,1912 alabama highmway 157,1912 alabama highway 157
+832.county_name,chitlon,chilton
+184.condition,pnceumonia,pneumonia
+964.score,u99%,99%
+180.city,guntersvlile,guntersville
+245.address_two,empyt,empty
+543.score,2%,92%
+594.stateavg,al_amig-3,al_ami-3
+887.state,l,al
+59.score,9%,96%
+163.state,ael,al
+946.hospital_owner,voluntary non-profit  private,voluntary non-profit - private
+535.state,aol,al
+713.address_two,oempty,empty
+402.address_two,empyt,empty
+452.measure_name,heart attack patients given aspirin atd ischarge,heart attack patients given aspirin at discharge
+388.address_three,emty,empty
+219.emergency_service,es,yes
+943.condition,pneumonai,pneumonia
+649.emergency_service,lno,no
+854.hospital_name,marion regional medical cenetr,marion regional medical center
+426.emergency_service,o,no
+681.county_name,efferson,jefferson
+135.city,luveren,luverne
+900.state,l,al
+170.address_two,emtpy,empty
+88.address_one,20q5 marengo street,205 marengo street
+233.hospital_type,cute care hospitals,acute care hospitals
+719.address_one,1912 laabama highway 157,1912 alabama highway 157
+46.state,ual,al
+988.address_one,150 gilbreath rdive,150 gilbreath drive
+165.condition,surgical infection prveention,surgical infection prevention
+271.hospital_name,sehlby baptist medical center,shelby baptist medical center
+501.measure_code,hfk-3,hf-3
+829.address_one,1010 la dam road,1010 lay dam road
+929.measure_name,surgery patients whose doctors orzdered treatments to prevent blood clots after certain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
+213.county_name,jfeferson,jefferson
+487.address_three,mepty,empty
+460.measure_code,scpi-inf-1,scip-inf-1
+177.measure_name,heaurt failure patients given discharge instructions,heart failure patients given discharge instructions
+806.address_three,empyt,empty
+331.hospital_owner,proprietayr,proprietary
+698.measure_code,admi-8a,ami-8a
+771.sample,0 patints,0 patients
+999.sample,28 patieants,28 patients
+99.sample,2 patientls,2 patients
+709.emergency_service,on,no
+24.hospital_type,acute care hospitarls,acute care hospitals
+554.score,59%,95%
+20.score,89%,98%
+236.score,98q%,98%
+475.address_three,emvpty,empty
+272.address_two,yempty,empty
+97.sample,0 patiets,0 patients
+568.score,0%,90%
+326.hospital_owner,poprietary,proprietary
+600.county_name,cfofee,coffee
+322.hospital_name,strignfellow memorial hospital,stringfellow memorial hospital
+730.index,-626,730
+659.condition,surgical infcetion prevention,surgical infection prevention
+13.hospital_name,callahan eye foundation hospital,helen keller memorial hospital
+78.address_two,mpty,empty
+634.stateavg,al_scip-car-d2,al_scip-card-2
+990.address_one,150 gilbretah drive,150 gilbreath drive
+563.measure_code,scip-in-4,scip-inf-4
+290.address_three,emypty,empty
+632.emergency_service,yees,yes
+167.emergency_service,eys,yes
+494.hospital_owner,voluntary non-rofit - private,voluntary non-profit - private
+359.hospital_owner,poprietary,proprietary
+143.sample,4patients,4 patients
+441.sample,22 patients***,22 patients
+132.address_two,empfty,empty
+271.state,ahl,al
+903.stateavg,al_caac-1,al_cac-1
+721.address_three,emty,empty
+220.hospital_type,acute care hospiatls,acute care hospitals
+337.zip_code,31513,36305
+374.emergency_service,eys,yes
+44.hospital_owner,government - hospital disotrict or authority,government - hospital district or authority
+211.measure_name,pneumonia patients assessed and given influenza vaccinatino,pneumonia patients assessed and given influenza vaccination
+615.condition,surghical infection prevention,surgical infection prevention
+352.stateavg,alami-4,al_ami-4
+133.city,luvgerne,luverne
+647.measure_code,ami-a7,ami-7a
+6.address_one,1300 south montgomery avenue,1720 university blvd
+180.hospital_type,acute carehospitals,acute care hospitals
+887.county_name,faytete,fayette
+448.hospital_owner,proprietzary,proprietary
+725.address_three,empyt,empty
+268.address_three,emty,empty
+341.city,dothaxn,dothan
+916.sample,5 patients,85 patients
+232.hospital_name,dekalb regional amedical center,dekalb regional medical center
+146.phone_number,1069821303,2567736511
+133.hospital_type,acute care hospials,acute care hospitals
+474.stateavg,l_hf-1,al_hf-1
+370.address_one,1530 u s hihgway 43,1530 u s highway 43
+733.address_three,emtpy,empty
+94.hospital_owner,voluntary onon-profit - other,voluntary non-profit - other
+790.measure_code,pcn-3b,pn-3b
+865.stateavg,al_pn-n3b,al_pn-3b
+84.city,florencge,florence
+710.score,10%,100%
+621.address_one,2000 pepperlel parkway,2000 pepperell parkway
+508.hospital_type,acuteo care hospitals,acute care hospitals
+918.hospital_type,acute caore hospitals,acute care hospitals
+104.condition,heart failuer,heart failure
+474.condition,heat failure,heart failure
+862.address_two,emapty,empty
+759.address_three,empyt,empty
+991.hospital_name,st vincents bluont,st vincents blount
+98.measure_code,amid-4,ami-4
+480.state,la,al
+332.county_name,housotn,houston
+573.score,mpty,empty
+917.score,99%***,99%
+11.emergency_service,es,yes
+737.address_one,1912 alabaa highway 157,1912 alabama highway 157
+737.condition,surgical infection prevntion,surgical infection prevention
+177.condition,heart afailure,heart failure
+748.state,gal,al
+756.hospital_owner,propreitary,proprietary
+476.phone_number,1048047218,3347742601
+390.county_name,moible,mobile
+720.hospital_owner,government - hospitaldistrict or authority,government - hospital district or authority
+123.score,mpty,empty
+855.sample,1 patientds,1 patients
+298.emergency_service,ys,yes
+478.address_two,empgty,empty
+644.stateavg,a_ami-3,al_ami-3
+911.hospital_name,riverview rgional medical center,riverview regional medical center
+712.condition,surgical infection preveniton,surgical infection prevention
+620.condition,hteart attack,heart attack
+44.city,dthan,dothan
+876.measure_name,surgery patients whose doctors orderd treatments to prevent blood clots after certain types of surgeries,surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries
+741.address_three,empyt,empty
+78.state,l,al
+312.emergency_service,eys,yes
+138.score,10m0%,100%
+427.sample,95 patientss,95 patients
+831.city,clanotn,clanton
+354.measure_name,patients who got teratment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery
+446.state,mak,ak
+339.sample,112 patiesnts,112 patients
+624.address_two,emupty,empty
+5.index,13.0,5
+744.emergency_service,on,no
+696.city,allassee,tallassee
+196.address_three,empyt,empty
+354.measure_code,scip-vt-e2,scip-vte-2
+526.address_two,epty,empty
+176.measure_name,heart attack patints given pci within 90 minutes of arrival,heart attack patients given pci within 90 minutes of arrival
+474.address_one,126 hosptial ave,126 hospital ave
+562.address_two,empyt,empty
+686.hospital_owner,govwernment - state,government - state
+999.stateavg,l_scip-inf-1,al_scip-inf-1
+548.county_name,mongtomery,montgomery
+270.phone_number,2056208101,2056208100
+552.measure_name,heart failure patients given smoking ecssation advice/counseling,heart failure patients given smoking cessation advice/counseling
+797.condition,surgical ainfection prevention,surgical infection prevention
+358.sample,1 pateints,1 patients
+684.condition,urgical infection prevention,surgical infection prevention
+65.city,boza,boaz
+348.sample,497 patents,497 patients
+691.county_name,jeffersoin,jefferson
+872.measure_code,scip-inf-c2,scip-inf-2
+98.score,empy,empty
+188.county_name,marsall,marshall
+110.emergency_service,o,no
+942.condition,pneuonia,pneumonia
+506.address_three,mepty,empty
+623.measure_name,heart attack patients given pci within 90 minutes of rrival,heart attack patients given pci within 90 minutes of arrival
+542.emergency_service,jyes,yes
+318.city,nniston,anniston
+71.sample,247 pratients,247 patients
+994.county_name,blsount,blount
+614.county_name,offee,coffee
+5.address_one,1300 south montgomery avenue,1720 university blvd
+246.state,la,al
+918.sample,196 patientjs,196 patients
+81.state,afl,al
+743.measure_name,heart attack patients given aspirina t discharge,heart attack patients given aspirin at discharge
+71.provider_number,5416,10006
+874.county_name,marino,marion
+355.county_name,maion,marion
+319.address_two,empety,empty
+627.emergency_service,yers,yes
+146.city,hatrselle,hartselle
+813.city,adsden,gadsden
+839.hospital_name,chilton medical ceter,chilton medical center
+28.emergency_service,eys,yes
+156.hospital_owner,proprieary,proprietary
+936.state,l,al
+160.state,tal,al
+745.address_two,emwpty,empty
+889.address_three,emptty,empty
+546.hospital_type,acute care hospitas,acute care hospitals
+187.address_three,emty,empty
+163.measure_code,scip-inf-o1,scip-inf-1
+946.address_one,15 miranda st,515 miranda st
+645.hospital_name,wedowee hospcital,wedowee hospital
+862.address_one,1256 military street sohuth,1256 military street south
+977.condition,surgical infection preveniton,surgical infection prevention
+193.zip_code,49391,35976
+270.zip_code,35051,35007
+463.city,shewffield,sheffield
+269.hospital_owner,govenrment - federal,government - federal
+675.address_two,emty,empty
+828.address_one,100 lay dam road,1010 lay dam road
+196.county_name,jeffersno,jefferson
+902.sample,3 ptaients,3 patients
+288.address_three,mpty,empty
+912.measure_code,ami-a,ami-8a
+40.address_three,empy,empty
+375.hospital_name,northwest medial center,northwest medical center
+322.emergency_service,ymes,yes
+812.measure_name,heart failure patients given ace inhibitor or arbf or left ventricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+170.hospital_name,marshall medical centerq north,marshall medical center north
+7.phone_number,3.347938701E9,2053258100
+616.state,la,al
+568.hospital_name,g h lnier memorial hospital,g h lanier memorial hospital
+270.emergency_service,jyes,yes
+430.hospital_type,aute care hospitals,acute care hospitals
+737.stateavg,al_cip-inf-3,al_scip-inf-3
+492.address_two,epty,empty
+371.measure_name,pneuomnia patients assessed and given influenza vaccination,pneumonia patients assessed and given influenza vaccination
+7.index,8.0,7
+745.score,empjty,empty
+659.score,emptdy,empty
+112.hospital_type,acute car ehospitals,acute care hospitals
+461.condition,surgica linfection prevention,surgical infection prevention
+396.city,prattville***,prattville
+267.hospital_type,acute carwe hospitals,acute care hospitals
+216.state,bal,al
+530.address_one,2105 east south bogulevard,2105 east south boulevard
+418.condition,heart attakc,heart attack
+988.condition,eart failure,heart failure
+809.address_two,empy,empty
+172.address_three,mpty,empty
+396.county_name,atuauga,autauga
+848.measure_name,surgery patients whose preventvie antibiotics were stopped at the right time (within 24 hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+608.sample,23 ptaients,23 patients
+345.city,dtothan,dothan
+777.city,hnutsville,huntsville
+583.address_two,epty,empty
+876.hospital_owner,voluntary nonp-rofit - private,voluntary non-profit - private
+10.county_name,jefferson***,jefferson
+903.address_one,600 south third strete,600 south third street
+347.measure_code,scip-avte-1,scip-vte-1
+404.condition,npeumonia,pneumonia
+617.state,la,al
+33.address_one,110 8ross clark circle,1108 ross clark circle
+458.emergency_service,yefs,yes
+450.measure_code,scip-vqte-2,scip-vte-2
+184.address_one,8000 alabama hghway 69,8000 alabama highway 69
+712.address_one,805f riendship road,805 friendship road
+749.stateavg,atl_hf-1,al_hf-1
+959.hospital_name,medical center enteprrise,medical center enterprise
+895.measure_code,scip-cazrd-2,scip-card-2
+1.zip_code,35660.0,35233
+293.hospital_owner,voluntary nonp-rofit - church,voluntary non-profit - church
+47.score,10m0%,100%
+644.index,1695,644
+301.address_two,emtpy,empty
+395.state,la,al
+777.hospital_owner,guovernment - hospital district or authority,government - hospital district or authority
+940.hospital_type,acut care hospitals,acute care hospitals
+578.emergency_service,yse,yes
+292.measure_name,surgery patients needing hai removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
+965.city,enterprie,enterprise
+618.state,la,al
+307.hospital_type,acute crae hospitals,acute care hospitals
+302.hospital_name,cajllahan eye foundation hospital,callahan eye foundation hospital
+68.zip_code,27044,35957
+131.condition,pneuonia,pneumonia
+646.hospital_name,wedoewe hospital,wedowee hospital
+404.hospital_type,acute car ehospitals,acute care hospitals
+922.score,99%***,99%
 981.state,l,al
-171.county_name,masrhall,marshall
-26.hospital_name,southeast alabama medical centger,southeast alabama medical center
-711.county_name,lmore,elmore
-591.city,alley,valley
-709.address_two,emtpy,empty
-919.address_three,mpty,empty
-64.address_two,epty,empty
-492.hospital_type,acute car ehospitals,acute care hospitals
-481.hospital_name,dale medical centre,dale medical center
-900.measure_name,surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal creamc  not a razor),surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)
-615.address_one,987 drayton stredet,987 drayton street
-990.measure_name,heart failure patents given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
-775.measure_code,ca-1,cac-1
-307.county_name,jbefferson,jefferson
-346.stateavg,al_scip-in-f6,al_scip-inf-6
-54.hospital_name,marshall medicalc enter south,marshall medical center south
-663.measure_name,all heart surgery pavtients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
-920.address_one,600 south thir street,600 south third street
-408.stateavg,al_pnf-7,al_pn-7
-452.stateavg,ak_am-2,ak_ami-2
-707.state,la,al
-787.county_name,maison,madison
-972.hospital_owner,proprieatry,proprietary
-800.hospital_type,acue care hospitals,acute care hospitals
-828.city,clatnon,clanton
-303.state,la,al
-742.measure_name,heart attack rpatients given aspirin at arrival,heart attack patients given aspirin at arrival
-326.condition,pneumoina,pneumonia
-625.county_name,lele,lee
-954.score,mpty,empty
-130.city,luvderne,luverne
-942.condition,pnemonia,pneumonia
-79.sample,84 patientfs,84 patients
-270.hospital_name,sjhelby baptist medical center,shelby baptist medical center
-511.hospital_owner,voluntary non-profit - privte,voluntary non-profit - private
-526.measure_name,heart failure patients give ace inhibitor or arb for left ventricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
-266.measure_name,all heart surgery patients whose blood ugar (blood glucose) is kept under good control in the days right after surgery,all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery
-938.hospital_name,georgiana hopsital,georgiana hospital
-840.condition,pneumonira,pneumonia
-847.county_name,chsilton,chilton
-901.stateavg,al_scfip-vte-1,al_scip-vte-1
-390.sample,5 patients,45 patients
-703.state,la,al
-269.city,thomasille,thomasville
-107.condition,pneumoia,pneumonia
-941.address_two,emopty,empty
-845.measure_code,shcip-card-2,scip-card-2
-987.measure_code,amib-8a,ami-8a
-448.address_one,281 debarr road,2801 debarr road
-981.measure_name,heart attack npatients given aspirin at arrival,heart attack patients given aspirin at arrival
-583.score,7c5%,75%
-847.phone_number,5256796998,2057552500
-556.address_two,emapty,empty
-627.address_two,emty,empty
-302.sample,mpty,empty
-19.index,1.0,19
-155.emergency_service,kyes,yes
-898.emergency_service,eys,yes
-648.state,l,al
-851.score,mepty,empty
-178.state,l,al
-612.condition,surgical infectoin prevention,surgical infection prevention
-685.measure_name,surgery patients who were given an atibiotic at the right time (within one hour before surgery) to help prevent infection,surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection
-200.address_one,50w medical park east drive,50 medical park east drive
-810.county_name,etwah,etowah
-131.address_two,empity,empty
-903.hospital_name,riverview regional medical cenvter,riverview regional medical center
-42.address_one,1108 ross clark cbircle,1108 ross clark circle
-607.address_two,mpty,empty
-597.measure_code,aim-7a,ami-7a
-796.score,59%,95%
-70.emergency_service,yse,yes
-358.hospital_name,northwest medical cetner,northwest medical center
-711.hospital_type,actue care hospitals,acute care hospitals
-209.hospital_name,st vincents aest,st vincents east
-322.address_two,evmpty,empty
-781.stateavg,a_lami-4,al_ami-4
-310.stateavg,alr_pn-6,al_pn-6
-993.emergency_service,es,yes
-433.condition,eart failure,heart failure
-489.score,1j00%,100%
-443.sample,106patients,106 patients
-58.phone_number,4757314592,2565938310
-645.address_one,209 norkth main street,209 north main street
-148.address_one,201 pine street nortwhest,201 pine street northwest
+326.state,l,al
+374.sample,q103 patients,103 patients
+464.address_one,1300 south montgomery avoenue,1300 south montgomery avenue
+65.address_one,505 u s highway 431 north,2505 u s highway 431 north
+714.condition,srgical infection prevention,surgical infection prevention
+162.county_name,moyrgan,morgan
+10.index,28.0,10
+539.score,00%,100%
+870.county_name,marino,marion
+922.address_three,emppty,empty
+142.address_one,1e01 hospital circle,101 hospital circle
+836.address_two,empyt,empty
+256.condition,penumonia,pneumonia
+634.measure_code,sciip-card-2,scip-card-2
+798.address_three,fempty,empty
+773.hospital_type,acute qcare hospitals,acute care hospitals
+662.city,wedowee***,wedowee
+781.hospital_type,acute care hospitas,acute care hospitals
+595.measure_name,heart attack paitents given smoking cessation advice/counseling,heart attack patients given smoking cessation advice/counseling
+439.address_two,mpty,empty
+739.hospital_type,acute care lhospitals,acute care hospitals
+609.condition,sugrical infection prevention,surgical infection prevention
+812.address_three,emtpy,empty
+14.index,23.0,14
+67.hospital_type,acut care hospitals,acute care hospitals
+700.address_one,805 friendhsip road,805 friendship road
+451.condition,heawrt attack,heart attack
+942.score,0%,90%
+999.measure_code,scpi-inf-1,scip-inf-1
+662.measure_name,surgery patients whose preventive antibiotics were stopped at thec right time (within 24 hours after surgery),surgery patients whose preventive antibiotics were stopped at the right time (within 24 hours after surgery)
+536.address_three,emptny,empty
+297.county_name,jewfferson,jefferson
+269.address_two,epmty,empty
+521.address_two,emmpty,empty
+441.state,k,ak
+3.index,1.0,3
+621.hospital_type,acute care hosiptals,acute care hospitals
+769.measure_name,surgery patients who were given the  right kind  of antibiotic to help preent infection,surgery patients who were given the  right kind  of antibiotic to help prevent infection
+345.score,89%,98%
+908.address_one,6w00 south third street,600 south third street
+797.county_name,madsion,madison
+707.address_one,805 friendshipr oad,805 friendship road
+745.measure_name,heart ajttack patients given smoking cessation advice/counseling,heart attack patients given smoking cessation advice/counseling
+306.measure_code,n-2,pn-2
+971.emergency_service,yse,yes
+160.address_two,emkpty,empty
+795.sample,123 pateints,123 patients
+87.score,9%,96%
+456.state,l,al
+544.county_name,montgomeyr,montgomery
+185.county_name,marshaall,marshall
+892.state,l,al
+201.emergency_service,yeis,yes
+996.address_one,150 gilbxreath drive,150 gilbreath drive
+97.score,emty,empty
+991.city,oneona,oneonta
+872.county_name,marino,marion
+460.address_one,1300 south montgomer avenue,1300 south montgomery avenue
+753.hospital_name,agndalusia regional hospital,andalusia regional hospital
+860.address_one,1256 military streret south,1256 military street south
+850.measure_code,scip-inf6-,scip-inf-6
+311.stateavg,alp_n-7,al_pn-7
+671.hospital_owner,government - tsate,government - state
+13.provider_number,10018.0,10019
+596.sample,wempty,empty
+461.state,cal,al
+976.stateavg,a_scip-inf-3,al_scip-inf-3
+479.sample,67 ptients,67 patients
+94.city,florece,florence
+270.measure_name,heart attack patients given spirin at arrival,heart attack patients given aspirin at arrival
+723.stateavg,al_avmi-8a,al_ami-8a
+143.measure_code,mscip-vte-1,scip-vte-1
+813.sample,70 patienots,70 patients
+906.sample,126 ptaients,126 patients
+799.stateavg,al_scip-inf-h4,al_scip-inf-4
+318.hospital_type,acue care hospitals,acute care hospitals
+684.hospital_owner,governmlent - state,government - state
+202.city,birmignham,birmingham
+551.condition,dheart failure,heart failure
+278.state,l,al
+823.sample,520patients,520 patients
+907.county_name,etowanh,etowah
+624.stateavg,al_hf-k1,al_hf-1
+237.score,00%,100%
+678.sample,247 patieents,247 patients
+898.condition,surgcal infection prevention,surgical infection prevention
+560.address_two,eumpty,empty
+629.emergency_service,yeus,yes
+920.hospital_owner,proprietry,proprietary
+936.score,emty,empty
+865.hospital_name,marion regional meidcal center,marion regional medical center
+552.measure_code,h-f4,hf-4
+374.city,wifnield,winfield
 6.hospital_name,helen keller memorial hospital,callahan eye foundation hospital
 6.provider_number,10019.0,10018
-488.county_name,daile,dale
-251.hospital_type,acute care hospitlas,acute care hospitals
-436.address_one,2801 debarr roda,2801 debarr road
-433.measure_name,heart failure patients given dischage instructions,heart failure patients given discharge instructions
-457.score,8%6,86%
-775.hospital_type,acute care hosgpitals,acute care hospitals
-842.emergency_service,yess,yes
-128.stateavg,al_hf2-,al_hf-2
-711.city,talslassee,tallassee
-427.hospital_name,cooxsa valley medical center,coosa valley medical center
-844.emergency_service,eys,yes
-990.sample,7 patienots,7 patients
-923.hospital_type,acute care hospitlas,acute care hospitals
-289.hospital_name,shelby baptist medical centr,shelby baptist medical center
-836.provider_number,11084,10043
-767.emergency_service,ykes,yes
-722.hospital_name,cullman regional medcial center,cullman regional medical center
-323.hospital_name,srtingfellow memorial hospital,stringfellow memorial hospital
-3.provider_number,10001.0,10018
-815.state,mal,al
-831.condition,heart attack***,heart attack
-362.state,ahl,al
-776.address_three,epty,empty
-721.city,cullman***,cullman
-64.city,oaz,boaz
-883.emergency_service,es,yes
-380.hospital_name,univ of south alabama medicla center,univ of south alabama medical center
-497.emergency_service,yse,yes
-913.address_two,emtpy,empty
-220.measure_code,amiw-1,ami-1
-530.emergency_service,ys,yes
-966.emergency_service,lyes,yes
-379.zip_code,51579,35594
-211.address_one,50 medical parkeast drive,50 medical park east drive
-340.emergency_service,yse,yes
-517.provider_number,14838,10023
-935.index,-611,935
-404.hospital_owner,voluntary nonp-rofit - private,voluntary non-profit - private
-385.emergency_service,yse,yes
-365.hospital_type,acute care hsopitals,acute care hospitals
-869.city,hamilotn,hamilton
-548.condition,herat attack,heart attack
-79.address_two,mpty,empty
-562.state,l,al
-1.address_one,1300 south montgomery avenue,1720 university blvd
-19.sample,41 paients,41 patients
-817.city,gadnsden,gadsden
-411.hospital_type,acute caer hospitals,acute care hospitals
-290.index,-505,290
-847.hospital_type,acute car hospitals,acute care hospitals
-16.index,7.0,16
-618.hospital_owner,government - hospital district r authority,government - hospital district or authority
-449.address_one,2801x debarr road,2801 debarr road
-340.stateavg,apl_pn-7,al_pn-7
-517.state,l,al
-975.state,la,al
-65.emergency_service,yse,yes
-371.hospital_owner,poprietary,proprietary
-535.address_two,mepty,empty
-686.stateavg,al_scpi-inf-2,al_scip-inf-2
-115.sample,100 patieknts,100 patients
-7.score,mpty,empty
-899.city,faytte,fayette
-947.score,6%5,65%
-920.state,la,al
-858.city,hamiton,hamilton
-429.address_three,mpty,empty
-847.state,asl,al
-776.index,-664,776
-347.county_name,huoston,houston
-331.hospital_name,stringfellow meomrial hospital,stringfellow memorial hospital
-3.index,37.0,3
-206.state,ral,al
-881.address_two,empy,empty
-292.hospital_name,shelby baptist medcial center,shelby baptist medical center
-285.measure_code,pwn-6,pn-6
-10.provider_number,10001.0,10019
-54.measure_name,heart failure patients given ace inhibitor or arb for left vaentricular systolic dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
-364.city,winifeld,winfield
-1.hospital_name,southeast alabama medical center,callahan eye foundation hospital
-185.emergency_service,yecs,yes
-268.city,thomasville***,thomasville
-46.measure_name,heart attack patients given aspirin at dischrage,heart attack patients given aspirin at discharge
-261.city,thomsaville,thomasville
-276.score,38%,83%
-624.condition,heart failue,heart failure
-270.provider_number,10107,10016
-614.address_one,987 drayhton street,987 drayton street
-761.state,aql,al
-412.address_three,mepty,empty
-133.hospital_owner,governmennt - federal,government - federal
-887.county_name,ayette,fayette
-522.hospital_type,cute care hospitals,acute care hospitals
-768.score,9%,99%
-578.score,h80%,80%
-199.score,99%***,99%
-441.address_two,epmty,empty
-58.hospital_owner,government - hospital distirct or authority,government - hospital district or authority
-981.condition,heart atttack,heart attack
-733.score,89%,98%
-651.state,l,al
-221.hospital_owner,voluntary non-profit - churoch,voluntary non-profit - church
-100.city,opmp,opp
-3.stateavg,al_scip-vte-2,al_scip-inf-2
-298.hospital_type,acute carxe hospitals,acute care hospitals
-312.hospital_type,acutge care hospitals,acute care hospitals
-955.address_one,5y15 miranda st,515 miranda st
-723.measure_name,heart attack patients given pci within 90 inutes of arrival,heart attack patients given pci within 90 minutes of arrival
-270.measure_code,ami1,ami-1
-244.measure_code,cip-vte-2,scip-vte-2
-294.stateavg,al_scpi-vte-2,al_scip-vte-2
-649.index,-483,649
-450.measure_name,patients who got treatment  at the right time (within 24 hours before or fter their surgery) to help prevent blood clots after certain types of surgery,patients who got treatment  at the right time (within 24 hours before or after their surgery) to help prevent blood clots after certain types of surgery
-505.hospital_name,cheokee medical center,cherokee medical center
-60.city,oaz,boaz
-893.hospital_type,acute care hospitasl,acute care hospitals
-425.measure_code,ohf-4,hf-4
-593.provider_number,12569,10027
-480.state,aal,al
-739.score,t100%,100%
-15.hospital_type,acute care hosmpitals,acute care hospitals
-187.measure_code,scipc-ard-2,scip-card-2
-458.measure_name,pneumonia patients assessed and qgiven influenza vaccination,pneumonia patients assessed and given influenza vaccination
-480.hospital_owner,government - hospital ditsrict or authority,government - hospital district or authority
-35.hospital_type,acutte care hospitals,acute care hospitals
-25.hospital_owner,government - hospital district or authoriyt,government - hospital district or authority
-273.measure_name,heart attack patients given smoking cessation adviceg/counseling,heart attack patients given smoking cessation advice/counseling
-196.score,69%,96%
-904.address_two,nempty,empty
-554.measure_code,p-n3b,pn-3b
-352.score,100s%,100%
-132.state,avl,al
-582.address_two,emptzy,empty
-631.state,la,al
-367.address_two,mepty,empty
-14.index,20.0,14
-806.address_three,empgty,empty
-21.hospital_owner,government - hospital district or authoriy,government - hospital district or authority
-7.hospital_name,southeast alabama medical center,callahan eye foundation hospital
-625.measure_code,hf2-,hf-2
-512.city,entre,centre
-994.city,oneonat,oneonta
-873.sample,15 ptients,15 patients
-23.hospital_type,acute caere hospitals,acute care hospitals
-684.address_one,619 soth 19th street,619 south 19th street
-645.score,empyt,empty
-979.county_name,choffee,coffee
-610.state,lal,al
-110.condition,pneumoniva,pneumonia
-47.provider_number,11840,10005
-142.hospital_type,acute care hosptials,acute care hospitals
-842.phone_number,5192702590,2057552500
-869.address_two,emptky,empty
-687.state,la,al
-712.hospital_owner,voluntary non-iprofit - private,voluntary non-profit - private
-726.sample,37patients,37 patients
-136.hospital_type,acute care hospitasl,acute care hospitals
-129.address_one,u101 hospital circle,101 hospital circle
-60.measure_name,pneumonia patients given the most papropriate initial antibiotic(s),pneumonia patients given the most appropriate initial antibiotic(s)
-409.city,prattvillte,prattville
-511.score,00%,100%
-464.hospital_owner,govbernment - hospital district or authority,government - hospital district or authority
-796.address_one,101 sviley rd,101 sivley rd
-723.state,l,al
-867.measure_code,n-5c,pn-5c
-650.sample,3 9patients,39 patients
-535.measure_code,scipinf-1,scip-inf-1
-92.state,l,al
-146.hospital_name,hartselle mebdical center,hartselle medical center
-391.condition,pneumoina,pneumonia
-128.address_three,epty,empty
-758.measure_code,pn7-,pn-7
-818.emergency_service,eys,yes
-330.address_three,epmty,empty
-548.hospital_owner,voluntary non-profit f- private,voluntary non-profit - private
-882.condition,heart attakc,heart attack
-791.condition,pjneumonia,pneumonia
-912.emergency_service,ytes,yes
-540.hospital_owner,voluntary non-porfit - church,voluntary non-profit - church
-16.address_two,emty,empty
-665.measure_code,cip-vte-1,scip-vte-1
-646.score,6%7,67%
-7.provider_number,10019.0,10018
-658.condition,pneumnia,pneumonia
-587.sample,116patients,116 patients
-209.stateavg,a_pn-5c,al_pn-5c
-176.city,guntesville,guntersville
-375.state,fal,al
-448.phone_number,9072761207,9072761131
-396.measure_code,amli-5,ami-5
-164.hospital_name,hartselle mdical center,hartselle medical center
-809.hospital_name,gadsedn regional medical center,gadsden regional medical center
-642.sample,4 pateints,4 patients
-515.state,l,al
-897.address_three,epty,empty
-26.zip_code,36394,36302
-776.score,9k8%,98%
-455.condition,peumonia,pneumonia
-627.state,wal,al
-475.condition,heart fialure,heart failure
-882.address_three,sempty,empty
+177.hospital_type,acute tcare hospitals,acute care hospitals
+98.stateavg,al_amio-4,al_ami-4
+684.city,birimngham,birmingham
+721.address_two,mepty,empty
+133.sample, 9patients,9 patients
+961.hospital_name,medical center enterrpise,medical center enterprise
+342.condition,surgijcal infection prevention,surgical infection prevention
+555.county_name,montgozmery,montgomery
+385.city,mobzile,mobile
+44.address_three,mpty,empty
+860.sample,38 patientds,38 patients
+512.county_name,chreokee,cherokee
+219.state,la,al
+286.city,alaabster,alabaster
+900.city,faytte,fayette
+565.address_three,gempty,empty
+451.measure_name,heart attack patients given aspirin at arriavl,heart attack patients given aspirin at arrival
+217.hospital_owner,voluntary non-profit - privaet,voluntary non-profit - private
+918.measure_name,pneumonia patients whose initial emergency room blood culture was performde prior to the administration of the first hospital dose of antibiotics,pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics
+209.state,l,al
+3.county_name,cjefferson,jefferson
+309.hospital_name,callahan eye fuoundation hospital,callahan eye foundation hospital
+616.emergency_service,yse,yes
+32.address_two,emty,empty
+326.emergency_service,yehs,yes
+490.condition,surgcial infection prevention,surgical infection prevention
+523.condition,hegart attack,heart attack
+891.emergency_service,yse,yes
+52.address_two,empyt,empty
+901.measure_code,csip-vte-1,scip-vte-1
+810.city,adsden,gadsden
+191.provider_number,8750,10010
+839.city,clantno,clanton
+204.city,bimringham,birmingham
+486.zip_code,33578,36360
+739.address_two,emopty,empty
+339.hospital_type,acuet care hospitals,acute care hospitals
+888.score,10%,100%
+591.stateavg,al_scip-ve-2,al_scip-vte-2
+751.state,l,al
+577.stateavg,nal_hf-4,al_hf-4
+929.hospital_owner,proprietray,proprietary
+692.measure_name,heart attack patients given apsirin at arrival,heart attack patients given aspirin at arrival
+874.condition,surgical inection prevention,surgical infection prevention
+383.sample,85 patients,58 patients
+785.hospital_type,acte care hospitals,acute care hospitals
+416.address_three,epmty,empty
+822.stateavg,al_sip-inf-2,al_scip-inf-2
+686.emergency_service,ys,yes
+2.provider_number,10001.0,10018
+498.hospital_name,cheorkee medical center,cherokee medical center
+531.county_name,montgoery,montgomery
+32.county_name,ouston,houston
+522.address_one,2105 eas tsouth boulevard,2105 east south boulevard
+988.state,l,al
+20.city,dothn,dothan
+963.address_one,400 n edawrds street,400 n edwards street
+560.hospital_owner,voluntary non-profit - rivate,voluntary non-profit - private
+985.measure_code,mi-5,ami-5
+111.score,9g0%,90%
+14.sample,0 pratients,0 patients
+235.county_name,de katlb,de kalb
+218.address_two,emcpty,empty
+448.county_name,anchoraage,anchorage
+164.measure_code,cip-inf-2,scip-inf-2
+508.address_two,emptjy,empty
+408.address_three,epty,empty
+793.score,8%9,89%
+350.address_three,emtpy,empty
+5.provider_number,10001.0,10018
+925.condition,surgical infectino prevention,surgical infection prevention
+938.hospital_type,acute care ahospitals,acute care hospitals
+137.score,1v00%,100%
+991.measure_code,hfq-4,hf-4
+529.condition,pneumonhia,pneumonia
+179.hospital_name,marshallmedical center north,marshall medical center north
+654.hospital_name,wedowee hoyspital,wedowee hospital
+642.address_three,empbty,empty
+422.address_one,35 w hickory st,315 w hickory st
+424.measure_code,hfu-3,hf-3
+448.phone_number,9072761229,9072761131
+679.county_name,jejfferson,jefferson
+43.emergency_service,yse,yes
+531.score,59%,95%
+242.sample,179 patientks,179 patients
+932.hospital_name,georgiana hospitla,georgiana hospital
+344.stateavg,al_scpi-inf-3,al_scip-inf-3
+365.address_three,epmty,empty
+3.measure_name,heart attack patients given aspirin at discharge,surgery patients who were given the  right kind  of antibiotic to help prevent infection
+507.hospital_owner,voluntry non-profit - private,voluntary non-profit - private
+168.address_three,vempty,empty
+138.hospital_owner,government - feaderal,government - federal
+607.city,ela,elba
+179.state,azl,al
+513.city,centyre,centre
+494.measure_code,mi-3,ami-3
+655.county_name,randlph,randolph
+488.hospital_name,dale medical centre,dale medical center
+620.city,poelika,opelika
+274.hospital_name,shelby baptis medical center,shelby baptist medical center
+251.emergency_service,wyes,yes
+974.state,atl,al
+199.county_name,jeffersoen,jefferson
+387.hospital_name,univ of south alabama edical center,univ of south alabama medical center
+134.score,m95%,95%
+320.address_three,mpty,empty
+26.county_name,houton,houston
+919.sample,019 patients,109 patients
+576.measure_name,heart failure patients given ace inhibitor or arb for left ventricular systolci dysfunction (lvsd),heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)
+693.emergency_service,rno,no
+2.hospital_type,acute qcare hospitals,acute care hospitals
+819.condition,peumonia,pneumonia
+441.hospital_name,alaska regonal hospital,alaska regional hospital
+597.hospital_type,acute careh ospitals,acute care hospitals
+339.city,dothadn,dothan
+400.measure_code,hf2-,hf-2
+656.hospital_owner,government -l ocal,government - local
+598.measure_name,heart attack patients given pci within 90 minutes of arirval,heart attack patients given pci within 90 minutes of arrival
+811.hospital_owner,prprietary,proprietary
+666.hospital_owner,goverrnment - local,government - local
+270.address_two,empyt,empty
+750.measure_name,heart failure patinets given an evaluation of left ventricular systolic (lvs) function,heart failure patients given an evaluation of left ventricular systolic (lvs) function
+303.city,birminghma,birmingham
+551.state,pal,al
+631.measure_code,pnq-5c,pn-5c
+767.sample,9 patents,9 patients
+607.address_three,mepty,empty
+86.address_three,emty,empty
+20.emergency_service,es,yes
+686.county_name,efferson,jefferson
+454.emergency_service,yse,yes
+538.index,-567,538
+164.state,la,al
+329.hospital_name,jstringfellow memorial hospital,stringfellow memorial hospital
+512.sample,1 paltients,1 patients
+354.state,l,al
+496.address_three,empyt,empty
+71.city,floernce,florence
+396.hospital_owner,voluntary non-profit - privatqe,voluntary non-profit - private
+161.hospital_type,acute caer hospitals,acute care hospitals
+703.hospital_type,acute care hospitalqs,acute care hospitals
+984.condition,ehart attack,heart attack
+75.hospital_type,acute car hospitals,acute care hospitals
+646.hospital_type,ajcute care hospitals,acute care hospitals
+715.stateavg,al_scip-ve-1,al_scip-vte-1
+365.state,akl,al
+246.score,mepty,empty
+50.measure_code,ami7a,ami-7a
+240.address_one,200 med ceter drive,200 med center drive
+813.address_one,1007 godyear avenue,1007 goodyear avenue
+4.stateavg,al_scip-inf-6,al_scip-inf-3
+573.hospital_name,g h lanier memorial hospiztal,g h lanier memorial hospital
+961.measure_code,mai-7a,ami-7a
+606.emergency_service,wyes,yes
+659.state,la,al
+64.index,2049,64
+283.city,labaster,alabaster
+248.address_two,mepty,empty
+749.emergency_service,on,no
+290.phone_number,829118719,2056208100
+664.hospital_name,wedowee hospital***,wedowee hospital
+617.measure_code,mami-1,ami-1
+497.condition,heart atack,heart attack
+155.county_name,nmorgan,morgan
+411.city,prattvilel,prattville
+352.hospital_type,acute care hospitalls,acute care hospitals
+14.score,mepty,empty
+487.hospital_type,acute care hosopitals,acute care hospitals
+363.hospital_owner,proprietayr,proprietary
+875.measure_code,cip-inf-6,scip-inf-6
+675.hospital_owner,government - astate,government - state
+724.stateavg,al_h-1,al_hf-1
+691.state,l,al
+473.address_one,126hospital ave,126 hospital ave
+21.score,9o9%,99%
+591.hospital_type,acute care hospitlas,acute care hospitals
+89.emergency_service,es,yes
+425.sample,12 patiets,12 patients
+78.address_one,205e marengo street,205 marengo street
+672.sample,0 patints,0 patients
+170.city,guntersvlle,guntersville
+945.address_one,515 msiranda st,515 miranda st
+298.sample,mepty,empty
+311.provider_number,7985,10018
+458.hospital_owner,gvoernment - hospital district or authority,government - hospital district or authority
+323.address_two,empy,empty
+316.address_three,empyt,empty
+796.city,untsville,huntsville
+982.condition,heart attacdk,heart attack
+872.score,8%7,87%
+630.condition,pnemuonia,pneumonia
+632.measure_code,pn6-,pn-6
+842.county_name,cilton,chilton
+509.measure_code,scip-car-2,scip-card-2
+518.condition,heart attack***,heart attack
+65.address_three,empy,empty
+973.score,10h0%,100%
+923.emergency_service,yhes,yes
+933.hospital_type,acute qcare hospitals,acute care hospitals
+427.address_two,emphty,empty
+549.state,l,al
+330.sample,87 patents,87 patients
+411.condition,sugical infection prevention,surgical infection prevention
+206.emergency_service,eys,yes
+981.condition,heart attakc,heart attack
+887.condition,heart filure,heart failure
+999.city,onoenta,oneonta
+22.address_two,empcty,empty
+232.sample,91 patinets,91 patients
+283.sample,131 patietns,131 patients
+316.score,9%3,93%
+545.stateavg,alf_ami-4,al_ami-4
+687.index,-509,687
+292.hospital_owner,voluntary nonprofit - church,voluntary non-profit - church
+371.condition,pnneumonia,pneumonia
+467.address_one,126 hospiltal ave,126 hospital ave
+939.condition,hceart failure,heart failure
+735.emergency_service,es,yes
+381.address_three,epty,empty
+281.measure_code,p-n2,pn-2
+560.state,ael,al
+579.address_two,emwpty,empty
+662.hospital_owner,govrenment - local,government - local
+965.address_two,empy,empty
+484.hospital_name,dale meidcal center,dale medical center
+682.address_two,emplty,empty
+875.county_name,mzarion,marion
+178.address_one,8000 alabzama highway 69,8000 alabama highway 69
+786.emergency_service,ys,yes
+419.measure_name,hear attack patients given beta blocker at discharge,heart attack patients given beta blocker at discharge
+109.sample,8 7patients,87 patients
+125.sample, 0patients,0 patients
+118.stateavg,al_scip-vtet-1,al_scip-vte-1
+89.measure_code,scip-inf2,scip-inf-2

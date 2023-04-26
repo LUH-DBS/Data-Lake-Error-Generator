@@ -17,7 +17,122 @@
                     DEPENDENCIES
     **************************************************** -->
     <dependencies><![CDATA[DCs: 
-]]></dependencies>
+
+            e1: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $id1 != $id2 -> #fail. 
+
+        
+            e2: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $beername1 != $beername2 -> #fail. 
+
+        
+            e3: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $breweryid1 != $breweryid2 -> #fail. 
+
+        
+            e4: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $breweryname1 != $breweryname2 -> #fail. 
+
+        
+            e5: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $city1 != $city2 -> #fail. 
+
+        
+            e6: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $ibu1 != $ibu2 -> #fail. 
+
+        
+            e7: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $style1 != $style2 -> #fail. 
+
+        
+            e8: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $abv1 != $abv2 -> #fail. 
+
+        
+            e9: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $state1 != $state2 -> #fail. 
+
+        
+            e10: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $index1 == $index2, $ounces1 != $ounces2 -> #fail. 
+
+        
+            e11: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $index1 != $index2 -> #fail. 
+
+        
+            e12: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $beername1 != $beername2 -> #fail. 
+
+        
+            e13: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $breweryid1 != $breweryid2 -> #fail. 
+
+        
+            e14: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $breweryname1 != $breweryname2 -> #fail. 
+
+        
+            e15: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $city1 != $city2 -> #fail. 
+
+        
+            e16: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $ibu1 != $ibu2 -> #fail. 
+
+        
+            e17: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $style1 != $style2 -> #fail. 
+
+        
+            e18: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $abv1 != $abv2 -> #fail. 
+
+        
+            e19: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $state1 != $state2 -> #fail. 
+
+        
+            e20: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $id1 == $id2, $ounces1 != $ounces2 -> #fail. 
+
+        
+            e21: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $breweryid1 == $breweryid2, $breweryname1 != $breweryname2 -> #fail. 
+
+        
+            e22: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $breweryid1 == $breweryid2, $city1 != $city2 -> #fail. 
+
+        
+            e23: clean(index: $index1, id: $id1, beername: $beername1, style: $style1, ounces: $ounces1, abv: $abv1, ibu: $ibu1, breweryid: $breweryid1, breweryname: $breweryname1, city: $city1, state: $state1),
+            clean(index: $index2, id: $id2, beername: $beername2, style: $style2, ounces: $ounces2, abv: $abv2, ibu: $ibu2, breweryid: $breweryid2, breweryname: $breweryname2, city: $city2, state: $state2),
+                $breweryid1 == $breweryid2, $state1 != $state2 -> #fail. 
+
+        ]]></dependencies>
 
     <!-- ****************************************************
                       CONFIGURATION
@@ -68,7 +183,7 @@
         <errorPercentages>
             <defaultPercentage>0.0</defaultPercentage>
             <vioGenQueries>
-            </vioGenQueries>
+            <vioGenQuery id="e1"><comparison>(index1 == index2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e1"><comparison>(id1 != id2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e2"><comparison>(index1 == index2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e2"><comparison>(beername1 != beername2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e3"><comparison>(index1 == index2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e3"><comparison>(breweryid1 != breweryid2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e4"><comparison>(index1 == index2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e4"><comparison>(breweryname1 != breweryname2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e5"><comparison>(index1 == index2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e5"><comparison>(city1 != city2)</comparison><percentage>0.20746887966804978</percentage></vioGenQuery><vioGenQuery id="e6"><comparison>(index1 == index2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e6"><comparison>(ibu1 != ibu2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e7"><comparison>(index1 == index2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e7"><comparison>(style1 != style2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e8"><comparison>(index1 == index2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e8"><comparison>(abv1 != abv2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e9"><comparison>(index1 == index2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e9"><comparison>(state1 != state2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e10"><comparison>(index1 == index2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e10"><comparison>(ounces1 != ounces2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e11"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e11"><comparison>(index1 != index2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e12"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e12"><comparison>(beername1 != beername2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e13"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e13"><comparison>(breweryid1 != breweryid2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e14"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e14"><comparison>(breweryname1 != breweryname2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e15"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e15"><comparison>(city1 != city2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e16"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e16"><comparison>(ibu1 != ibu2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e17"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e17"><comparison>(style1 != style2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e18"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e18"><comparison>(abv1 != abv2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e19"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e19"><comparison>(state1 != state2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e20"><comparison>(id1 == id2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e20"><comparison>(ounces1 != ounces2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e21"><comparison>(breweryid1 == breweryid2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e21"><comparison>(breweryname1 != breweryname2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e22"><comparison>(breweryid1 == breweryid2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e22"><comparison>(city1 != city2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e23"><comparison>(breweryid1 == breweryid2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery><vioGenQuery id="e23"><comparison>(state1 != state2)</comparison><percentage>0.16597510373443983</percentage></vioGenQuery></vioGenQueries>
         </errorPercentages>
 
         <!-- To control the way in which changing the value -->
@@ -89,7 +204,7 @@
         <randomErrors>
             <tables>
                 <table name="clean"> 
-                    <percentage>1</percentage> <!-- Percentage is wrt attributes to dirty in the table -->
+                    <percentage>4</percentage> <!-- Percentage is wrt attributes to dirty in the table -->
                     <attributes>
                     <attribute>beername</attribute><attribute>style</attribute><attribute>breweryname</attribute><attribute>city</attribute><attribute>state</attribute></attributes>
                 </table>
@@ -100,7 +215,7 @@
             <tables>
                 <table name="clean">
                     <attributes>
-                    <attribute percentage="0" detectable="true">index</attribute><attribute percentage="0" detectable="true">id</attribute><attribute percentage="0" detectable="true">ounces</attribute><attribute percentage="0" detectable="true">abv</attribute><attribute percentage="0" detectable="true">ibu</attribute><attribute percentage="0" detectable="true">breweryid</attribute></attributes>
+                    <attribute percentage="1" detectable="true">index</attribute><attribute percentage="1" detectable="true">id</attribute><attribute percentage="1" detectable="true">ounces</attribute><attribute percentage="1" detectable="true">breweryid</attribute></attributes>
                 </table>
             </tables>
         </outlierErrors>

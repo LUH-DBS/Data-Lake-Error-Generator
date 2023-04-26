@@ -137,8 +137,8 @@ def prepare_database(dataframe: pd.DataFrame):
     columns = [Column('oid', Integer, Identity(start=1))]
     for column, dtype in zip(dataframe.columns.tolist(), dataframe.dtypes.tolist()):
 
-        if str(dtype) == 'float64' or str(dtype) == 'int64':
-            dataframe[column] = dataframe[column].fillna(0)
+        """if str(dtype) == 'float64' or str(dtype) == 'int64':
+            dataframe[column] = dataframe[column].fillna(0)"""
 
         columns.append(Column(column, type_mapping[str(dtype)]))
 
@@ -154,9 +154,10 @@ def prepare_database(dataframe: pd.DataFrame):
 
 def make_it_dirty(error_percentage, file_path, output_dir):
     df = pd.read_csv(file_path)
+    df_without_null = df.dropna(axis=1)
     fd_results = run_metanome(file_path)
     fd_list = get_fd_list(fd_results)
-    outlier_error_cols = list(df.select_dtypes(include=[np.number]).columns.values)
+    outlier_error_cols = list(df_without_null.select_dtypes(include=[np.number]).columns.values)
     typo_cols = list(df.select_dtypes(include=['object']).columns.values)
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = get_percentages(fd_list, error_percentage,
                                                                                      outlier_error_cols, typo_cols)
