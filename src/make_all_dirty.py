@@ -9,7 +9,7 @@ import sqlalchemy
 from sqlalchemy import Float, Column, Integer, Text, Identity, MetaData, Table, BigInteger
 
 from preprocessing.file_preprocessing import preprocess_headers, read_original_file, save_csv
-from configs.metanome_file_input import run_metanome
+from configs.metanome_file_input import run_metanome, run_metanome_with_cli
 from src.configs import create_bart_config
 import numpy as np
 import os
@@ -55,12 +55,16 @@ def find_det_dep(fd):
     print()
     return determinant, dependant
 
+def find_det_dep_cli(fd):
+    determinant = fd['determinant']['columnIdentifiers']
+    dependant = fd['dependant']['columnIdentifier']
+    return determinant, dependant
 
 def get_fd_list(fd_results):
     print("get_fd_list")
     fd_list = []
     for fd in fd_results:
-        determinant, dependant = find_det_dep(fd)
+        determinant, dependant = find_det_dep_cli(fd)
         if len(determinant) == 1 and determinant != dependant \
                 and determinant != None and dependant != None \
                 and (dependant, determinant) not in fd_list:
@@ -155,8 +159,14 @@ def prepare_database(dataframe: pd.DataFrame):
 def make_it_dirty(error_percentage, file_path, output_dir):
     df = pd.read_csv(file_path)
     df_without_null = df.dropna(axis=1)
-    fd_results = run_metanome(file_path)
+
+    print("Preparing FDs")
+
+    fd_results = run_metanome_with_cli(file_path)
     fd_list = get_fd_list(fd_results)
+
+    print("Calculated FDs")
+
     outlier_error_cols = list(df_without_null.select_dtypes(include=[np.number]).columns.values)
     typo_cols = list(df.select_dtypes(include=['object']).columns.values)
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = get_percentages(fd_list, error_percentage,

@@ -1,4 +1,7 @@
 import json
+import subprocess
+from pathlib import Path
+
 from matplotlib.pyplot import get
 import requests
 import time
@@ -17,8 +20,8 @@ def delete_all_file_inputs():
             print('Can\'t delete the input file. file_id: file_input["id"]')
             sys.exit(1)
         print(f'file input deleted. id: {file_input["id"]}')
-    
-def load_input_file_to_metanome(input_file): 
+
+def load_input_file_to_metanome(input_file):
     headers = {
         'Content-Type': 'application/json'
     }
@@ -176,6 +179,7 @@ def run_fd(file_name, file_id):
         print(e)
         return
 
+
 def load_execution_result(execution_id):
     headers = {'Content-Type': 'application/json'}
     payload = json.dumps({
@@ -184,11 +188,14 @@ def load_execution_result(execution_id):
 
     return requests.request("POST", f'{BASE_URL}/result-store/load-execution/{execution_id}/true', headers=headers, data=payload)
 
+
 def get_result_count():
     return requests.request("GET", f'{BASE_URL}/result-store/count/Functional Dependency')
 
+
 def get_result(result_count):
     return requests.request("GET", f'{BASE_URL}/result-store/get-from-to/Functional Dependency/Determinant/true/0/{result_count}')
+
 
 def get_fd(file_path):
     delete_all_file_inputs()
@@ -197,19 +204,19 @@ def get_fd(file_path):
     if load_input_file_response.status_code != 204:
         print(f'Can\'t load file to metanome. file: {file_path}')
         return
-    
+
     file_input_response = get_all_file_inputs()[0]
     execution_response = run_fd(file_input_response['fileName'], file_input_response['id'])
     if execution_response.status_code != 200:
         print(f'Can\'t execute fd. file: {file_path}')
         return
     execution_response = execution_response.json()
-    
+
     load_execution_result_response = load_execution_result(execution_response["id"])
     if load_execution_result_response.status_code != 204:
         print(f'Can\'t load the execution result. execution_id: {execution_response["id"]}')
         return
-    
+
     result_count_response = get_result_count()
     if result_count_response.status_code != 200:
         print(f'Can\'t get the result count. execution_id: {execution_response["id"]}')
@@ -219,8 +226,25 @@ def get_fd(file_path):
     if result_response.status_code != 200:
         print(f'Can\'t get the result. execution_id: {execution_response["id"]}')
         return
-    
+
     return result_response.json()
+
+
+def run_metanome_with_cli(file_path):
+    val = subprocess.check_call(f"java -cp \"metanome-cli-1.2-SNAPSHOT.jar;HyFD-1.2-SNAPSHOT.jar\" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files \"{file_path}\" --file-key \"INPUT_GENERATOR\" --header --separator \",\" -o \"file:clean\"", shell=True, timeout=3600, cwd=Path("..").resolve())
+    path_to_results = Path("../results/clean_fds").resolve()
+
+    if path_to_results.exists():
+        print("Hello")
+        results_as_json = []
+        with path_to_results.open() as file:
+            lines = file.readlines()
+        for line in lines:
+            results_as_json.append(json.loads(line))
+        return results_as_json
+    else:
+        print('Something went wrong with the execution of the metanome_cli or the algorithm')
+        return
 
 def run_metanome(file_path):
     return get_fd(file_path)
