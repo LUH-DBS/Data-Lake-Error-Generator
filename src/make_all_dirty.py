@@ -10,16 +10,16 @@ from sqlalchemy import Float, Column, Integer, Text, Identity, MetaData, Table, 
 
 from preprocessing.file_preprocessing import preprocess_headers, read_original_file, save_csv
 from configs.metanome_file_input import run_metanome, run_metanome_with_cli
-from src.configs import create_bart_config
+from configs import create_bart_config
 import numpy as np
 import os
 import subprocess
 import random
 import pickle
 
-input_dir = Path("../metanome_input_files").resolve()
-output_dir = Path("../metanome_output_files").resolve()
-bart_engine_path = Path("..\..\BART\Bart_Engine").resolve()
+input_dir = Path("metanome_input_files").resolve()
+output_dir = Path("metanome_output_files").resolve()
+bart_engine_path = Path("BART/Bart_Engine").resolve()
 
 
 def get_files_by_file_size(dirname, reverse=False):
@@ -127,7 +127,7 @@ def set_fd_ratio(fd_list, vio_gen_percentage, num_table_records):
 
 def get_database():
     parser = etree.XMLParser(strip_cdata=False)
-    root_tree = etree.parse('bart_sample_config.xml', parser=parser)
+    root_tree = etree.parse('src/bart_sample_config.xml', parser=parser)
     username = root_tree.xpath("//target/access-configuration/login")[0].text
     password = root_tree.xpath("//target/access-configuration/password")[0].text
     address = root_tree.xpath("//target/access-configuration/uri")[0].text
@@ -165,7 +165,7 @@ def make_it_dirty(error_percentage, file_path, output_dir):
     fd_results = run_metanome_with_cli(file_path)
     fd_list = get_fd_list(fd_results)
 
-    print("Calculated FDs")
+    print("Prepared FDs")
 
     outlier_error_cols = list(df_without_null.select_dtypes(include=[np.number]).columns.values)
     typo_cols = list(df.select_dtypes(include=['object']).columns.values)
@@ -179,8 +179,8 @@ def make_it_dirty(error_percentage, file_path, output_dir):
     print(config_file_path)
     # Prepare database here
     prepare_database(df)
-    val = subprocess.check_call([".\\run.bat", config_file_path],
-                                shell=True, timeout=3600, cwd=bart_engine_path)
+    val = subprocess.check_call(["./run.sh", config_file_path],
+                                shell=False, timeout=3600, cwd=bart_engine_path)
 
 
 def get_all_files(directory: Path):

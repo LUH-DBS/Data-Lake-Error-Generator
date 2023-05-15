@@ -231,11 +231,11 @@ def get_fd(file_path):
 
 
 def run_metanome_with_cli(file_path):
-    val = subprocess.check_call(f"java -cp \"metanome-cli-1.2-SNAPSHOT.jar;HyFD-1.2-SNAPSHOT.jar\" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files \"{file_path}\" --file-key \"INPUT_GENERATOR\" --header --separator \",\" -o \"file:clean\"", shell=True, timeout=3600, cwd=Path("..").resolve())
-    path_to_results = Path("../results/clean_fds").resolve()
+    val = subprocess.check_call(f"java -cp \"metanome-cli-1.2-SNAPSHOT.jar:HyFD-1.2-SNAPSHOT.jar\" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files \"{file_path}\" --file-key \"INPUT_GENERATOR\" --header --separator \",\" -o \"file:clean\"", shell=True, timeout=3600, cwd=Path("./").resolve())
+    path_to_results = Path("results/clean_fds").resolve()
 
     if path_to_results.exists():
-        print("Hello")
+        print("Metanome-Results found")
         results_as_json = []
         with path_to_results.open() as file:
             lines = file.readlines()

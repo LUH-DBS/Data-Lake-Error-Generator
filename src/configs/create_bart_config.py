@@ -102,10 +102,13 @@ def set_config(xml_root, input_file, table_columns, outlier_error_cols, outlier_
     return xml_root
 
 def create_config_file(input_file, table_columns, outlier_error_col, outlier_errors_percentage, typo_col, typo_percentage, fd_ratio_dict, output_dir):
+    print("********************** Creating config file **********************")
     parser = etree.XMLParser(strip_cdata=False)
-    root_tree = etree.parse('bart_sample_config.xml', parser=parser)
+    root_tree = etree.parse('src/bart_sample_config.xml', parser=parser)
 
     set_config(root_tree, input_file, table_columns, outlier_error_col, outlier_errors_percentage, typo_col, typo_percentage, fd_ratio_dict, output_dir)
     config_file_path = os.path.join(output_dir, f'''bart_config_{os.path.basename(input_file).replace('.csv', '')}.xml''')
     root_tree.write(config_file_path)
+    print("********************** Config file created **********************")
+    print(f'''Config file path: {config_file_path}''')
     return config_file_path
