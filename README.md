@@ -1,5 +1,6 @@
 # Data-Lake-Error-Generator
 Generating errors in data lakes.
+Note that this version works for Unix-based systems. You might need some changes to run it on windows (see this commit: 08b0626)
 
 # Requirements
 This system needs a PostgreSQL 11 database or older in order to work.
@@ -8,6 +9,7 @@ The csv files are not allowed to contain PostgreSQL keywords as headers
 
 # Usage
 First set the database config in the file ```src/bart_sample_config.xml```.
+make sure you have created bartdb and target schema. 
 Next, set inside the python file ```src/make_all_dirty.py``` the parameters ```input_dir```, ```output_dir``` and 
 ```bart_engine_path```:
 - ```input_dir```: Path for a folder which contains several csv that should be dirtied
