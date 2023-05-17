@@ -17,8 +17,8 @@ import subprocess
 import random
 import pickle
 
-input_dir = Path("metanome_input_files").resolve()
-output_dir = Path("metanome_output_files").resolve()
+input_dir = Path("input_lake").resolve()
+output_dir = Path("output_lake").resolve()
 bart_engine_path = Path("BART/Bart_Engine").resolve()
 
 
@@ -136,7 +136,7 @@ def get_database():
     return sqlalchemy.create_engine(f"postgresql+psycopg2://{username}:{password}@{address}", echo=True)
 
 
-def prepare_database(dataframe: pd.DataFrame):
+def prepare_database(dataframe: pd.DataFrame, file_path: str):
     type_mapping = {'float64': Float, 'int64': BigInteger, 'object': Text}
     columns = [Column('oid', Integer, Identity(start=1))]
     for column, dtype in zip(dataframe.columns.tolist(), dataframe.dtypes.tolist()):
@@ -178,7 +178,7 @@ def make_it_dirty(error_percentage, file_path, output_dir):
                                                              fd_ratio_dict, output_dir)
     print(config_file_path)
     # Prepare database here
-    prepare_database(df)
+    prepare_database(df, file_path)
     val = subprocess.check_call(["./run.sh", config_file_path],
                                 shell=False, timeout=3600, cwd=bart_engine_path)
 
@@ -201,7 +201,7 @@ if __name__ == '__main__':
 
     files = get_all_files(input_dir)
     print(files)
-
+    reserved_words = open("src/preprocessing/reserved_words.txt", "r").read().split(",")
     files_errors = dict()
     count = 0
     time_0 = time.time()
@@ -212,20 +212,20 @@ if __name__ == '__main__':
             processed_file_path = Path(output_dir, path_postfix).resolve()
             if not os.path.exists(processed_file_path):
                 os.makedirs(processed_file_path)
-
-            print(file_name + " is being processed.")
-            df = read_original_file(file)
-            df = preprocess_headers(df)
-            df_name = save_csv(df, processed_file_path, file)
-            error_precentage = random.randint(1, 25)
-            files_errors[file_name] = error_precentage
-            make_it_dirty(error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)
-            count += 1
-            print(file_name + " is done.")
-            if count % 10 == 0:
-                print(f'''{count} files processed.''')
-                with open('files_error_percentages.pickle', 'wb') as handle:
-                    pickle.dump(files_errors, handle, protocol=pickle.HIGHEST_PROTOCOL)
+            if not os.path.exists(os.path.join(processed_file_path, "dirty_clean.csv")):
+                print(file_name + " is being processed.")
+                df = read_original_file(file)
+                df = preprocess_headers(df, reserved_words)
+                df_name = save_csv(df, processed_file_path, file)
+                error_precentage = random.randint(1, 25)
+                files_errors[file_name] = error_precentage
+                make_it_dirty(error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)
+                count += 1
+                print(file_name + " is done.")
+                if count % 10 == 0:
+                    print(f'''{count} files processed.''')
+                    with open('files_error_percentages.pickle', 'wb') as handle:
+                        pickle.dump(files_errors, handle, protocol=pickle.HIGHEST_PROTOCOL)
         except Exception as e:
             print(file, e)
 

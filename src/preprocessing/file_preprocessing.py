@@ -21,10 +21,12 @@ def read_original_file(input_file_path):
         return
     return df
 
-def preprocess_headers(df):
+def preprocess_headers(df, reserved_words):
     p = inflect.engine()
     columns = list(df.columns.values)
     for col_idx, col in enumerate(columns):
+        if col.upper() in reserved_words:
+            col = col + '_value'
         col = camel_to_snake(col_name = col)
         for c in col:
             if c.isdigit():
