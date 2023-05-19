@@ -216,6 +216,10 @@ if __name__ == '__main__':
                 print(file_name + " is being processed.")
                 df = read_original_file(file)
                 df = preprocess_headers(df, reserved_words)
+                # Calculate the mode of each column
+                modes = df.mode().iloc[0]
+                # Fill missing values with the corresponding column mode
+                df = df.fillna(modes)
                 df_name = save_csv(df, processed_file_path, file)
                 error_precentage = random.randint(1, 25)
                 files_errors[file_name] = error_precentage

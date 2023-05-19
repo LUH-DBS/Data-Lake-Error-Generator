@@ -25,12 +25,12 @@ def preprocess_headers(df, reserved_words):
     p = inflect.engine()
     columns = list(df.columns.values)
     for col_idx, col in enumerate(columns):
-        if col.upper() in reserved_words:
-            col = col + '_value'
         col = camel_to_snake(col_name = col)
         for c in col:
             if c.isdigit():
                 col = col.replace(c, '_' + p.number_to_words(int(c)))
+        if col.upper() in reserved_words:
+            col = col + 'value'
         columns[col_idx] = col
     df.set_axis(columns, axis = 1, inplace=True)
     return df
