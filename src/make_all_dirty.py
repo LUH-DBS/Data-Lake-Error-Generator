@@ -19,7 +19,7 @@ import pickle
 
 input_dir = Path("input_lake").resolve()
 output_dir = Path("output_lake").resolve()
-bart_engine_path = Path("BART/Bart_Engine").resolve()
+bart_engine_path = Path("BART-EGen/Bart_Engine").resolve()
 
 
 def get_files_by_file_size(dirname, reverse=False):
