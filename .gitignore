@@ -6,3 +6,17 @@ input_lake
 BART
 output_lake
 data-gov-sandbox-old
+testing_lake
+results
+output_testing_lake
+output_lake_1_25
+output_lake_15_25
+output_lake_0_25
+output_lake_1_25_2
+output_lake_1_10
+output_lake_40_60
+output_lake_15_25_3
+output_lake_70_80
+output_lake_test
+output_lake_high_percent
+check_datalake.py

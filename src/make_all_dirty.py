@@ -7,7 +7,7 @@ from lxml import etree
 import pandas as pd
 import sqlalchemy
 from sqlalchemy import Float, Column, Integer, Text, Identity, MetaData, Table, BigInteger
-
+from sqlalchemy.sql import text
 from preprocessing.file_preprocessing import preprocess_headers, read_original_file, save_csv
 from configs.metanome_file_input import run_metanome, run_metanome_with_cli
 from configs import create_bart_config
@@ -17,8 +17,8 @@ import subprocess
 import random
 import pickle
 
-input_dir = Path("input_lake").resolve()
-output_dir = Path("output_lake").resolve()
+input_dir = Path("input_lake_data_gov").resolve()
+output_dir = Path("output_lake_high_percent").resolve()
 bart_engine_path = Path("BART-EGen/Bart_Engine").resolve()
 
 
@@ -75,12 +75,12 @@ def get_fd_list(fd_results):
 def get_percentages(fd_list, error_percentage, outlier_error_cols, typo_cols):
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = 0, 0, 0
     if len(fd_list) > 0:
-        vio_gen_percentage = math.floor(error_percentage / 3)
+        vio_gen_percentage = math.floor(error_percentage / 2)
         if len(outlier_error_cols) > 0:
-            outlier_errors_percentage = math.floor((error_percentage - vio_gen_percentage) / 2)
+            outlier_errors_percentage = math.floor(error_percentage / 2)
             if len(typo_cols) > 0:
                 # FD, OE, SE
-                typo_percentage = math.floor(error_percentage - vio_gen_percentage - outlier_errors_percentage)
+                typo_percentage = math.floor(error_percentage / 2)
             else:
                 # FD, OE
                 vio_gen_percentage = math.floor(error_percentage / 2)
@@ -94,7 +94,7 @@ def get_percentages(fd_list, error_percentage, outlier_error_cols, typo_cols):
             outlier_errors_percentage = math.floor(error_percentage / 2)
             if len(typo_cols) > 0:
                 # OE, SE
-                typo_percentage = math.floor(error_percentage - outlier_errors_percentage)
+                typo_percentage = math.floor(error_percentage / 2)
             else:
                 # OE
                 outlier_errors_percentage = error_percentage
@@ -104,7 +104,7 @@ def get_percentages(fd_list, error_percentage, outlier_error_cols, typo_cols):
     return vio_gen_percentage, outlier_errors_percentage, typo_percentage
 
 
-def set_fd_ratio(fd_list, vio_gen_percentage, num_table_records):
+def set_fd_ratio(fd_list, vio_gen_percentage, num_table_records, row_size):
     num_fd_violations = num_table_records * (vio_gen_percentage / 100)
     if num_fd_violations / 2 < 1:
         return dict()
@@ -115,9 +115,9 @@ def set_fd_ratio(fd_list, vio_gen_percentage, num_table_records):
 
     while assinged_fds < num_fd_violations:
         if fd_list[i] in fd_ratio_dict:
-            fd_ratio_dict[fd_list[i]] += (2 / num_table_records) * 100
+            fd_ratio_dict[fd_list[i]] += (2 / row_size) * 100
         else:
-            fd_ratio_dict[fd_list[i]] = (2 / num_table_records) * 100
+            fd_ratio_dict[fd_list[i]] = (2 / row_size) * 100
         assinged_fds += 1
         i += 1
         if i >= len(fd_list):
@@ -150,9 +150,13 @@ def prepare_database(dataframe: pd.DataFrame, file_path: str):
     table = Table('clean', metadata, *columns, schema="target")
 
     database_con = get_database()
+    with database_con.connect() as con:
+        con.execute(text('CREATE SCHEMA IF NOT EXISTS target'))
+        con.commit()
     table.drop(database_con, checkfirst=True)
+    print("Stuff happend")
     table.create(database_con)
-
+    print("Stuff happend")
     dataframe.to_sql("clean", database_con, schema='target', index=False, if_exists="append")
 
 
@@ -171,14 +175,17 @@ def make_it_dirty(error_percentage, file_path, output_dir):
     typo_cols = list(df.select_dtypes(include=['object']).columns.values)
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = get_percentages(fd_list, error_percentage,
                                                                                      outlier_error_cols, typo_cols)
-
-    fd_ratio_dict = set_fd_ratio(fd_list, vio_gen_percentage, df.shape[0])
+    print(vio_gen_percentage)
+    print(outlier_errors_percentage)
+    print(typo_percentage)
+    fd_ratio_dict = set_fd_ratio(fd_list, vio_gen_percentage, df.size, df.shape[0])
     config_file_path = create_bart_config.create_config_file(file_path, list(df.columns.values), outlier_error_cols,
                                                              outlier_errors_percentage, typo_cols, typo_percentage,
                                                              fd_ratio_dict, output_dir)
     print(config_file_path)
     # Prepare database here
     prepare_database(df, file_path)
+    print("Start Bart")
     val = subprocess.check_call(["./run.sh", config_file_path],
                                 shell=False, timeout=3600, cwd=bart_engine_path)
 
@@ -221,7 +228,8 @@ if __name__ == '__main__':
                 # Fill missing values with the corresponding column mode
                 df = df.fillna(modes)
                 df_name = save_csv(df, processed_file_path, file)
-                error_precentage = random.randint(1, 25)
+                error_precentage = random.randint(20,40)
+                # error_precentage = 25
                 files_errors[file_name] = error_precentage
                 make_it_dirty(error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)
                 count += 1

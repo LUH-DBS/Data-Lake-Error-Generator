@@ -40,7 +40,7 @@ def set_outliers_config(xml_root, table_name, outlier_error_cols, outlier_errors
     outlier_error_obj_attr= xml_root.find("//outlierErrors/tables/table/attributes")
     for col in outlier_error_cols:
         out_atrr = etree.SubElement(outlier_error_obj_attr, "attribute")
-        out_atrr.set("percentage", str(math.floor(int(outlier_errors_percentage)/len(outlier_error_cols))))
+        out_atrr.set("percentage", str(int(outlier_errors_percentage)))
         out_atrr.set("detectable", "true")
         out_atrr.text = col
     return xml_root
@@ -95,7 +95,7 @@ def set_config(xml_root, input_file, table_columns, outlier_error_cols, outlier_
         xml_root = set_fds_config(xml_root, f'''e{idx+1}''', str(fd[0]), str(fd[1]), fd_ratio_dict[fd])
     
     export_dirty_db_obj = xml_root.xpath("//configuration/exportDirtyDBPath")[0] 
-    export_dirty_db_obj.text = "./"
+    export_dirty_db_obj.text = str(output_dir)
     export_dirty_file_obj = xml_root.xpath("//configuration/exportCellChangesPath")[0]
     export_dirty_file_obj. text = table_name + "_changes.csv"
 
