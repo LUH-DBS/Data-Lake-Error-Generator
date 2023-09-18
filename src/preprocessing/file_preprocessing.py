@@ -1,4 +1,3 @@
-from posixpath import basename
 import string
 import inflect
 import re

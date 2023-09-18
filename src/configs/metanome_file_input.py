@@ -3,7 +3,6 @@ import logging
 import subprocess
 from pathlib import Path
 
-from matplotlib.pyplot import get
 import requests
 import time
 import os

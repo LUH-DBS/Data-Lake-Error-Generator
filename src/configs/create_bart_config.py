@@ -1,11 +1,6 @@
 import logging
-import math
-from multiprocessing import parent_process
-import string
 from lxml import etree
 import os
-
-from matplotlib.pyplot import table
 
 log = logging.getLogger(__name__)
 def generate_error_definition(table_name, columns, fd_list):
