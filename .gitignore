@@ -8,6 +8,7 @@ output_lake
 data-gov-sandbox-old
 testing_lake
 results
+outputs
 output_testing_lake
 output_lake_1_25
 output_lake_15_25
