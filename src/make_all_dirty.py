@@ -2,6 +2,8 @@ import math
 import shutil
 import time
 from pathlib import Path
+
+import hydra
 from lxml import etree
 
 import pandas as pd
@@ -56,10 +58,12 @@ def find_det_dep(fd):
     print()
     return determinant, dependant
 
+
 def find_det_dep_cli(fd):
     determinant = fd['determinant']['columnIdentifiers']
     dependant = fd['dependant']['columnIdentifier']
     return determinant, dependant
+
 
 def get_fd_list(fd_results):
     print("get_fd_list")
@@ -76,20 +80,25 @@ def get_fd_list(fd_results):
 def get_percentages(fd_list, error_percentage, outlier_error_cols, typo_cols):
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = 0, 0, 0
     if len(fd_list) > 0:
-        vio_gen_percentage = math.floor(error_percentage / 2)
+        vio_gen_percentage = math.floor(error_percentage)
         if len(outlier_error_cols) > 0:
+            vio_gen_percentage = math.floor(error_percentage / 2)
             outlier_errors_percentage = math.floor(error_percentage / 2)
             if len(typo_cols) > 0:
                 # FD, OE, SE
                 typo_percentage = math.floor(error_percentage / 2)
             else:
                 # FD, OE
-                vio_gen_percentage = math.floor(error_percentage / 2)
                 outlier_errors_percentage = math.floor(error_percentage / 2)
         else:
-            # FD, SE
-            vio_gen_percentage = math.floor(error_percentage / 2)
-            typo_percentage = math.floor(error_percentage / 2)
+            if len(typo_cols) > 0:
+                # FD, SE
+                vio_gen_percentage = math.floor(error_percentage / 2)
+                typo_percentage = math.floor(error_percentage / 2)
+            else:
+                # FD
+                pass
+
     else:
         if len(outlier_error_cols) > 0:
             outlier_errors_percentage = math.floor(error_percentage)
@@ -141,7 +150,6 @@ def prepare_database(dataframe: pd.DataFrame, file_path: str):
     type_mapping = {'float64': Float, 'int64': BigInteger, 'object': Text}
     columns = [Column('oid', Integer, Identity(start=1))]
     for column, dtype in zip(dataframe.columns.tolist(), dataframe.dtypes.tolist()):
-
         """if str(dtype) == 'float64' or str(dtype) == 'int64':
             dataframe[column] = dataframe[column].fillna(0)"""
 
@@ -159,13 +167,13 @@ def prepare_database(dataframe: pd.DataFrame, file_path: str):
     dataframe.to_sql("clean", database_con, schema='target', index=False, if_exists="append")
 
 
-def make_it_dirty(error_percentage, file_path, output_dir):
+def make_it_dirty(cfg, error_percentage, file_path, output_dir):
     df = pd.read_csv(file_path)
     df_without_null = df.dropna(axis=1)
 
     print("Preparing FDs")
-    if with_fd:
-        
+    if cfg["error-generation"]["with_fds"]:
+
         fd_results = run_metanome_with_cli(file_path)
         fd_list = get_fd_list(fd_results)
 
@@ -174,10 +182,18 @@ def make_it_dirty(error_percentage, file_path, output_dir):
         print("Skipping FDs")
         fd_list = []
 
-    outlier_error_cols = list(df_without_null.select_dtypes(include=[np.number]).columns.values)
-    typo_cols = list(df.select_dtypes(include=['object']).columns.values)
+    outlier_error_cols = df_without_null.select_dtypes(include=[np.number]).columns.to_list()
+    typo_cols = df.select_dtypes(include=['object']).columns.to_list()
+
+    if not cfg["error-generation"]["with_outliers"]:
+        outlier_error_cols = []
+
+    if not cfg["error-generation"]["with_random_typos"]:
+        typo_cols = []
+
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = get_percentages(fd_list, error_percentage,
                                                                                      outlier_error_cols, typo_cols)
+    print(error_percentage)
     print(vio_gen_percentage)
     print(outlier_errors_percentage)
     print(typo_percentage)
@@ -190,7 +206,7 @@ def make_it_dirty(error_percentage, file_path, output_dir):
     prepare_database(df, file_path)
     print("Start Bart")
     val = subprocess.check_call(["./run.sh", config_file_path],
-                                shell=False, timeout=3600, cwd=bart_engine_path)
+                                shell=False, timeout=3600, cwd=Path(cfg["input"]["bart_engine_path"]).resolve())
 
 
 def get_all_files(directory: Path):
@@ -207,9 +223,9 @@ def get_all_files(directory: Path):
     return files
 
 
-if __name__ == '__main__':
-
-    files = get_all_files(input_dir)
+@hydra.main(version_base=None, config_path="hydra_configs", config_name="base")
+def main(cfg):
+    files = get_all_files(Path(cfg["input"]["input_data_lake_path"]))
     print(files)
     reserved_words = open("src/preprocessing/reserved_words.txt", "r").read().split(",")
     files_errors = dict()
@@ -217,9 +233,9 @@ if __name__ == '__main__':
     time_0 = time.time()
     for file in files:
         try:
-            path_postfix = os.path.relpath(file, input_dir)
-            file_name = Path(output_dir, path_postfix).name
-            processed_file_path = Path(output_dir, path_postfix).resolve()
+            path_postfix = os.path.relpath(file, Path(cfg["input"]["input_data_lake_path"]))
+            file_name = Path(Path(cfg["input"]["output_data_lake_path"]), path_postfix).name
+            processed_file_path = Path(Path(cfg["input"]["output_data_lake_path"]), path_postfix).resolve()
             if not os.path.exists(processed_file_path):
                 os.makedirs(processed_file_path)
             if not os.path.exists(os.path.join(processed_file_path, "dirty_clean.csv")):
@@ -231,10 +247,11 @@ if __name__ == '__main__':
                 # Fill missing values with the corresponding column mode
                 df = df.fillna(modes)
                 df_name = save_csv(df, processed_file_path, file)
-                error_precentage = random.randint(15,25)
+                error_precentage = random.randint(cfg["error-generation"]["lower_bound_error_percentage"],
+                                                  cfg["error-generation"]["upper_bound_error_percentage"])
                 # error_precentage = 25
                 files_errors[file_name] = error_precentage
-                make_it_dirty(error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)
+                make_it_dirty(cfg, error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)
                 count += 1
                 print(file_name + " is done.")
                 if count % 10 == 0:
@@ -246,3 +263,7 @@ if __name__ == '__main__':
 
     time_1 = time.time()
     print("********time*******:{} seconds".format(time_1 - time_0))
+
+
+if __name__ == '__main__':
+    main()

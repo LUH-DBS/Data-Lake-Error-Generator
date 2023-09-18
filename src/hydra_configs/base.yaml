@@ -1,0 +1,12 @@
+input:
+  input_data_lake_path: "metanome_input_files"
+  output_data_lake_path: "output_lake"
+  bart_engine_path: "BART-EGen/Bart_Engine"
+
+error-generation:
+  with_fds: True
+  with_outliers: True
+  with_random_typos: True
+
+  lower_bound_error_percentage: 15
+  upper_bound_error_percentage: 25
