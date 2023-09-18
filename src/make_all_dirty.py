@@ -18,8 +18,9 @@ import random
 import pickle
 
 input_dir = Path("input_lake_data_gov").resolve()
-output_dir = Path("output_lake_high_percent").resolve()
+output_dir = Path("output_lake_without_fd").resolve()
 bart_engine_path = Path("BART-EGen/Bart_Engine").resolve()
+with_fd = False
 
 
 def get_files_by_file_size(dirname, reverse=False):
@@ -91,13 +92,13 @@ def get_percentages(fd_list, error_percentage, outlier_error_cols, typo_cols):
             typo_percentage = math.floor(error_percentage / 2)
     else:
         if len(outlier_error_cols) > 0:
-            outlier_errors_percentage = math.floor(error_percentage / 2)
+            outlier_errors_percentage = math.floor(error_percentage)
             if len(typo_cols) > 0:
                 # OE, SE
-                typo_percentage = math.floor(error_percentage / 2)
+                typo_percentage = math.floor(error_percentage)
             else:
                 # OE
-                outlier_errors_percentage = error_percentage
+                outlier_errors_percentage = math.floor(error_percentage)
         else:
             # SE
             typo_percentage = error_percentage
@@ -154,9 +155,7 @@ def prepare_database(dataframe: pd.DataFrame, file_path: str):
         con.execute(text('CREATE SCHEMA IF NOT EXISTS target'))
         con.commit()
     table.drop(database_con, checkfirst=True)
-    print("Stuff happend")
     table.create(database_con)
-    print("Stuff happend")
     dataframe.to_sql("clean", database_con, schema='target', index=False, if_exists="append")
 
 
@@ -165,11 +164,15 @@ def make_it_dirty(error_percentage, file_path, output_dir):
     df_without_null = df.dropna(axis=1)
 
     print("Preparing FDs")
+    if with_fd:
+        
+        fd_results = run_metanome_with_cli(file_path)
+        fd_list = get_fd_list(fd_results)
 
-    fd_results = run_metanome_with_cli(file_path)
-    fd_list = get_fd_list(fd_results)
-
-    print("Prepared FDs")
+        print("Prepared FDs")
+    else:
+        print("Skipping FDs")
+        fd_list = []
 
     outlier_error_cols = list(df_without_null.select_dtypes(include=[np.number]).columns.values)
     typo_cols = list(df.select_dtypes(include=['object']).columns.values)
@@ -228,7 +231,7 @@ if __name__ == '__main__':
                 # Fill missing values with the corresponding column mode
                 df = df.fillna(modes)
                 df_name = save_csv(df, processed_file_path, file)
-                error_precentage = random.randint(20,40)
+                error_precentage = random.randint(15,25)
                 # error_precentage = 25
                 files_errors[file_name] = error_precentage
                 make_it_dirty(error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)

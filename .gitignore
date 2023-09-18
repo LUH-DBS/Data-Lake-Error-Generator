@@ -19,4 +19,5 @@ output_lake_15_25_3
 output_lake_70_80
 output_lake_test
 output_lake_high_percent
+output_lake_without_fd
 check_datalake.py
