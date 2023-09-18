@@ -34,7 +34,7 @@ def preprocess_headers(df, reserved_words):
         if col.upper() in reserved_words:
             col = col + 'value'
         columns[col_idx] = col
-    df.set_axis(columns, axis=1, inplace=True)
+    df = df.set_axis(columns, axis=1)
     return df
 
 
