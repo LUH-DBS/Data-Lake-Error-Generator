@@ -1,0 +1,3 @@
+[submodule "BART-EGen"]
+	path = BART-EGen
+	url = https://github.com/LUH-DBS/BART-EGen.git
