@@ -7,6 +7,7 @@ import requests
 import time
 import os
 import sys
+import platform
 
 BASE_URL='http://localhost:8081/api'
 
@@ -231,7 +232,16 @@ def get_fd(file_path):
 
 
 def run_metanome_with_cli(file_path):
-    val = subprocess.check_call(f"java -cp \"metanome-cli-1.2-SNAPSHOT.jar;HyFD-1.2-SNAPSHOT.jar\" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files \"{file_path}\" --file-key \"INPUT_GENERATOR\" --header --separator \",\" -o \"file:clean\"", shell=False, timeout=3600, cwd=Path("./").resolve())
+    system = platform.system()
+    if system == "Windows":
+        val = subprocess.check_call(
+            f"java -cp \"metanome-cli-1.2-SNAPSHOT.jar;HyFD-1.2-SNAPSHOT.jar\" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files \"{file_path}\" --file-key \"INPUT_GENERATOR\" --header --separator \",\" -o \"file:clean\"",
+                                    shell=False, timeout=3600, cwd=Path("./").resolve())
+    else:
+        val = subprocess.check_call(
+            f"java -cp \"metanome-cli-1.2-SNAPSHOT.jar:HyFD-1.2-SNAPSHOT.jar\" de.metanome.cli.App --algorithm de.metanome.algorithms.hyfd.HyFD --files \"{file_path}\" --file-key \"INPUT_GENERATOR\" --header --separator \",\" -o \"file:clean\"",
+            shell=False, timeout=3600, cwd=Path("./").resolve())
+
     path_to_results = Path("results/clean_fds").resolve()
 
     if path_to_results.exists():
