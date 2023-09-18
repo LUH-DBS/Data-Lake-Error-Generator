@@ -1,3 +1,4 @@
+import logging
 import math
 import shutil
 import time
@@ -19,10 +20,7 @@ import subprocess
 import random
 import pickle
 
-input_dir = Path("input_lake_data_gov").resolve()
-output_dir = Path("output_lake_without_fd").resolve()
-bart_engine_path = Path("BART-EGen/Bart_Engine").resolve()
-with_fd = False
+log = logging.getLogger(__name__)
 
 
 def get_files_by_file_size(dirname, reverse=False):
@@ -66,7 +64,6 @@ def find_det_dep_cli(fd):
 
 
 def get_fd_list(fd_results):
-    print("get_fd_list")
     fd_list = []
     for fd in fd_results:
         determinant, dependant = find_det_dep_cli(fd)
@@ -171,15 +168,15 @@ def make_it_dirty(cfg, error_percentage, file_path, output_dir):
     df = pd.read_csv(file_path)
     df_without_null = df.dropna(axis=1)
 
-    print("Preparing FDs")
+    log.info("Preparing FDs")
     if cfg["error-generation"]["with_fds"]:
 
         fd_results = run_metanome_with_cli(file_path)
         fd_list = get_fd_list(fd_results)
 
-        print("Prepared FDs")
+        log.info("Prepared FDs")
     else:
-        print("Skipping FDs")
+        log.info("Skipping FDs")
         fd_list = []
 
     outlier_error_cols = df_without_null.select_dtypes(include=[np.number]).columns.to_list()
@@ -193,18 +190,20 @@ def make_it_dirty(cfg, error_percentage, file_path, output_dir):
 
     vio_gen_percentage, outlier_errors_percentage, typo_percentage = get_percentages(fd_list, error_percentage,
                                                                                      outlier_error_cols, typo_cols)
-    print(error_percentage)
-    print(vio_gen_percentage)
-    print(outlier_errors_percentage)
-    print(typo_percentage)
+
+    log.info(
+        f"Full Percentage: {error_percentage} -> fds: {vio_gen_percentage}, "
+        f"outlier: {outlier_errors_percentage}, random typos: {typo_percentage}"
+    )
+
     fd_ratio_dict = set_fd_ratio(fd_list, vio_gen_percentage, df.size, df.shape[0])
     config_file_path = create_bart_config.create_config_file(file_path, list(df.columns.values), outlier_error_cols,
                                                              outlier_errors_percentage, typo_cols, typo_percentage,
                                                              fd_ratio_dict, output_dir)
-    print(config_file_path)
+    log.debug(f"Using bart conf at {config_file_path}")
     # Prepare database here
     prepare_database(df, file_path)
-    print("Start Bart")
+    log.info("Start Bart")
     val = subprocess.check_call(["./run.sh", config_file_path],
                                 shell=False, timeout=3600, cwd=Path(cfg["input"]["bart_engine_path"]).resolve())
 
@@ -226,7 +225,7 @@ def get_all_files(directory: Path):
 @hydra.main(version_base=None, config_path="hydra_configs", config_name="base")
 def main(cfg):
     files = get_all_files(Path(cfg["input"]["input_data_lake_path"]))
-    print(files)
+    log.debug(files)
     reserved_words = open("src/preprocessing/reserved_words.txt", "r").read().split(",")
     files_errors = dict()
     count = 0
@@ -239,7 +238,7 @@ def main(cfg):
             if not os.path.exists(processed_file_path):
                 os.makedirs(processed_file_path)
             if not os.path.exists(os.path.join(processed_file_path, "dirty_clean.csv")):
-                print(file_name + " is being processed.")
+                log.info(file_name + " is being processed.")
                 df = read_original_file(file)
                 df = preprocess_headers(df, reserved_words)
                 # Calculate the mode of each column
@@ -253,16 +252,16 @@ def main(cfg):
                 files_errors[file_name] = error_precentage
                 make_it_dirty(cfg, error_precentage, os.path.join(processed_file_path, df_name), processed_file_path)
                 count += 1
-                print(file_name + " is done.")
+                log.info(file_name + " is done.")
                 if count % 10 == 0:
-                    print(f'''{count} files processed.''')
+                    log.info(f'''{count} files processed.''')
                     with open('files_error_percentages.pickle', 'wb') as handle:
                         pickle.dump(files_errors, handle, protocol=pickle.HIGHEST_PROTOCOL)
         except Exception as e:
-            print(file, e)
+            log.error(e)
 
     time_1 = time.time()
-    print("********time*******:{} seconds".format(time_1 - time_0))
+    log.info("********time*******:{} seconds".format(time_1 - time_0))
 
 
 if __name__ == '__main__':

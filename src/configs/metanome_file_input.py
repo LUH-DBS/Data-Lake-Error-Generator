@@ -1,4 +1,5 @@
 import json
+import logging
 import subprocess
 from pathlib import Path
 
@@ -10,6 +11,7 @@ import sys
 import platform
 
 BASE_URL='http://localhost:8081/api'
+log = logging.getLogger(__name__)
 
 def get_all_file_inputs():
     return requests.request("GET", f'{BASE_URL}/file-inputs').json()
@@ -245,7 +247,7 @@ def run_metanome_with_cli(file_path):
     path_to_results = Path("results/clean_fds").resolve()
 
     if path_to_results.exists():
-        print("Metanome-Results found")
+        log.debug("Metanome-Results found")
         results_as_json = []
         with path_to_results.open() as file:
             lines = file.readlines()
@@ -253,7 +255,7 @@ def run_metanome_with_cli(file_path):
             results_as_json.append(json.loads(line))
         return results_as_json
     else:
-        print('Something went wrong with the execution of the metanome_cli or the algorithm')
+        log.error('Something went wrong with the execution of the metanome_cli or the algorithm')
         return
 
 def run_metanome(file_path):
