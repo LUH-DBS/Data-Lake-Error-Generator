@@ -147,9 +147,6 @@ def prepare_database(dataframe: pd.DataFrame, file_path: str):
     type_mapping = {'float64': Float, 'int64': BigInteger, 'object': Text}
     columns = [Column('oid', Integer, Identity(start=1))]
     for column, dtype in zip(dataframe.columns.tolist(), dataframe.dtypes.tolist()):
-        """if str(dtype) == 'float64' or str(dtype) == 'int64':
-            dataframe[column] = dataframe[column].fillna(0)"""
-
         columns.append(Column(column, type_mapping[str(dtype)]))
 
     metadata = MetaData()
