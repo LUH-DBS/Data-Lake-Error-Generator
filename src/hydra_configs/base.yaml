@@ -1,12 +1,12 @@
 input:
-  input_data_lake_path: "metanome_input_files"
-  output_data_lake_path: "output_lake"
-  bart_engine_path: "BART-EGen/Bart_Engine"
+  input_data_lake_path: "metanome_input_files" # path to the data lake that should have errors introduced
+  output_data_lake_path: "output_lake" # path, where the results should be stored
+  bart_engine_path: "BART-EGen/Bart_Engine" # path towards the Bart-Error Generator  Engine
 
 error-generation:
-  with_fds: True
-  with_outliers: True
-  with_random_typos: True
+  with_fds: True # determines if functional dependencies should be used to introduce errors
+  with_outliers: True # determines if numerical outliers should be used to introduce errors
+  with_random_typos: True # determines if random typos should be introduced
 
-  lower_bound_error_percentage: 15
-  upper_bound_error_percentage: 25
+  lower_bound_error_percentage: 15 # determines the lower bound of the error percentage of a dataset (inclusive)
+  upper_bound_error_percentage: 25 # determines the upper bound of the error percentage of a dataset (inclusive)
