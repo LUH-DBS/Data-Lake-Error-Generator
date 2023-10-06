@@ -4,7 +4,9 @@ This repository contains a system that automatically configures Bart to introduc
 The system introduces errors based upon functional dependencies, random typos and numerical outliers. In each column it
 can generate either errors base upon functional dependencies and random typos or functional dependencies and 
 numerical outliers or only one of the possible error types. Which error type is used for a column is decided by 
-inferring the data type. The functional dependencies that are used to generate errors are determined with the data
+inferring the data type. 
+
+The functional dependencies that are used to generate errors are determined with the data
 profiling algorithm [HyFD](https://dl.acm.org/doi/10.1145/2882903.2915203).
 
 ## Requirements
