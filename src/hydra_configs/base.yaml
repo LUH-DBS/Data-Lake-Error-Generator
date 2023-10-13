@@ -1,5 +1,5 @@
 input:
-  input_data_lake_path: "metanome_input_files" # path to the data lake that should have errors introduced
+  input_data_lake_path: "./datasets/test_lake" # path to the data lake that should have errors introduced
   output_data_lake_path: "output_lake" # path, where the results should be stored
   bart_engine_path: "BART-EGen/Bart_Engine" # path towards the Bart-Error Generator  Engine
 
