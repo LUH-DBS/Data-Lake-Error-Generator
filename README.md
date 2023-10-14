@@ -10,12 +10,28 @@ The functional dependencies that are used to generate errors are determined with
 profiling algorithm [HyFD](https://dl.acm.org/doi/10.1145/2882903.2915203).
 
 ## Requirements
-The system runs under Python 3.10 and Java 20. A PostgreSQL 11 database server is required. All required packages can be
-found in the file ``environment.yml``. Using Anaconda the file can be directly turned into a conda environment.
+The system runs under Python 3.10 and Java 20. A PostgreSQL 11 (or older) database server is required.
+
+The environment can be set up like this:
+- ```shell
+  conda env create -f environment.yml
+  conda activate Data-Lake-Error-Generator
+  git submodule init
+  git submodule update
 
 Bart uses the build tool ant. It should be installed with the conda environment. If not, then it needs be installed manually.
 
 The database server should contain a database specifically for this system.
+PostgreSQL can be installed as a system by downloading it from their website and following their instructions or
+it can be installed with conda by executing:
+
+- ```shell
+  conda install -c anaconda postgresql=11
+- Setup a user and configure PostgreSQL as you want
+- Then create the database and start the server:
+   ```shell
+   initdb -D bartdb
+   pg_ctl -D bartdb -l logfile start
 
 ## Usage
 1. Configure the database in file ``src/bart_sample_config.xml``.
@@ -45,3 +61,6 @@ The csv files in the input data lake are not allowed to contain PostgreSQL keywo
 It is better to have a higher error percentage bound than the desired one, as sometimes Bart decides to not generate
 errors for a given error type and column to ensure detectability. This means that the error percentage of the lake will
 never go over the upper bound, but can slightly go under the lower bound.
+
+The config file is configured for the example lake and needs to be adapted for any other lake that require error 
+insertion
