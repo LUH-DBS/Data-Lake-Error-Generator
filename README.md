@@ -16,8 +16,6 @@ The environment can be set up like this:
 - ```shell
   conda env create -f environment.yml
   conda activate Data-Lake-Error-Generator
-  git submodule init
-  git submodule update
 
 Bart uses the build tool ant. It should be installed with the conda environment. If not, then it needs be installed manually.
 
