@@ -19,6 +19,8 @@ import os
 import subprocess
 import random
 import pickle
+from scipy.stats import shapiro
+
 
 log = logging.getLogger(__name__)
 
@@ -176,7 +178,17 @@ def make_it_dirty(cfg, error_percentage, file_path, output_dir):
         log.info("Skipping FDs")
         fd_list = []
 
-    outlier_error_cols = df_without_null.select_dtypes(include=[np.number]).columns.to_list()
+    outlier_error_cols = []
+    numeric_cols = df_without_null.select_dtypes(include=[np.number]).columns.to_list()
+    alpha = 0.05
+    for col in numeric_cols:
+        stat, p_value = shapiro(df_without_null[col])
+        # Check if the column follows a normal distribution based on the p-value
+        if p_value > alpha:
+            print(f'{col}: Statistics={stat:.3f}, p={p_value:.3f}. Sample looks Gaussian (fail to reject H0).')
+            # Consider the column as following a normal distribution
+            outlier_error_cols.append(col)
+
     typo_cols = df.select_dtypes(include=['object']).columns.to_list()
 
     if not cfg["error-generation"]["with_outliers"]:
