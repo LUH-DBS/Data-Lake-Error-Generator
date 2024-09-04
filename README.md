@@ -1,4 +1,9 @@
 # Data Lake Error-Generator
+
+table retrieval module: https://github.com/LUH-DBS/Data-Lake-Error-Generator/tree/main/data-retrieval
+functional dependency discovery and error generation modules: https://github.com/LUH-DBS/Data-Lake-Error-Generator/blob/main/src/make_all_dirty.py
+
+
 This repository contains a system that automatically configures Bart to introduce errors into a data lake of csv files.
 
 The system introduces errors based upon functional dependencies, random typos and numerical outliers. In each column it
