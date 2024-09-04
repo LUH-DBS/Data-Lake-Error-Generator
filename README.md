@@ -1,19 +1,28 @@
 # Data Lake Error-Generator
+This repository contains a system that automatically configures Bart to introduce errors into a data lake of csv files. 
 
-table retrieval module: https://github.com/LUH-DBS/Data-Lake-Error-Generator/tree/main/data-retrieval
+Data retrieval module: The data-retrieval module is designed to download tables from the data.gov repository. For this project, we have scoped the search to retrieve structured datasets in the following formats:
+['.CSV', '.csv', 'xls', 'XLSX', 'XLS', 'xlsx', '.zip', '.tar.gz', '.tar'].
 
-functional dependency discovery and error generation modules: https://github.com/LUH-DBS/Data-Lake-Error-Generator/blob/main/src/make_all_dirty.py
+Note that the tables that are larger than 4MB are skipped. 
+We also pruned datasets that were not parsable or Bart had problems generating errors due to the memory limitations. 
 
+https://github.com/LUH-DBS/Data-Lake-Error-Generator/tree/main/data-retrieval
 
-This repository contains a system that automatically configures Bart to introduce errors into a data lake of csv files.
+Functional dependency discovery: The functional dependencies that are used to generate errors are determined with the data
+profiling algorithm [HyFD](https://dl.acm.org/doi/10.1145/2882903.2915203).
+
+https://github.com/LUH-DBS/Data-Lake-Error-Generator/blob/main/src/make_all_dirty.py
+
+Error generation module: 
 
 The system introduces errors based upon functional dependencies, random typos and numerical outliers. In each column it
 can generate either errors base upon functional dependencies and random typos or functional dependencies and 
 numerical outliers or only one of the possible error types. Which error type is used for a column is decided by 
 inferring the data type. 
 
-The functional dependencies that are used to generate errors are determined with the data
-profiling algorithm [HyFD](https://dl.acm.org/doi/10.1145/2882903.2915203).
+https://github.com/LUH-DBS/Data-Lake-Error-Generator/blob/main/src/make_all_dirty.py
+
 
 ## Requirements
 The system runs under Python 3.10 and Java 20. A PostgreSQL 11 (or older) database server is required.
